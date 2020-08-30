@@ -9,3 +9,17 @@ html, body {
     font-family: 'Lato', sans-serif;
     color: #616161;
 }
+
+.hero_section {
+    background-color: #401a86;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.view_projects {
+    color: #fff;
+    border-color: #fff;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
