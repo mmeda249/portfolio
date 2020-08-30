@@ -13,7 +13,7 @@ html, body {
 
 
 .sky_container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: linear-gradient(125deg, #00103a 0%, #3e5f77 100%);
 }
@@ -21,14 +21,11 @@ html, body {
 
 .star {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 1px;
+    height: 2px;
     background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
     filter: drop-shadow(0 0 6px #699bff);
     animation: tail 6s ease-in-out infinite, shooting 6s ease-in-out infinite;
-    transform: rotateZ(45deg);
-
+    transform: rotateZ(45deg) !important;
 }
 
 .star::before, .star::after {
@@ -48,54 +45,74 @@ html, body {
 }
 
 .star:nth-child(1) {
-    top: calc(50% - 700px);
+    top: calc(50% - 800px);
     left: calc(50% - 900px);
-    animation-delay: 100ms;
+    animation-delay: 0.25s;
 }
 
 .star:nth-child(1)::before, .star:nth-child(1)::after {
-    animation-delay: 100ms;
+    animation-delay: 0.25s;
 }
 
 .star:nth-child(2) {
-    top: calc(50% - 50px);
-    left: calc(50% - 190px);
-    animation-delay: 150ms;
+    top: calc(50% - 200px);
+    left: calc(50% - 210px);
+    animation-delay: 0.75s;
 }
 
 .star:nth-child(2)::before, .star:nth-child(2)::after {
-    animation-delay: 150ms;
+    animation-delay: 0.75s;
 }
 
 .star:nth-child(3) {
-    top: calc(50% - 00px);
-    left: calc(50% - 200px);
-    animation-delay: 160ms;
+    top: calc(50% - 100px);
+    left: calc(50% - 400px);
+    animation-delay: 0.5s;
 }
 
 .star:nth-child(3)::before, .star:nth-child(3)::after {
-    animation-delay: 160ms;
+    animation-delay: 0.5s;
 }
 
 .star:nth-child(4) {
     top: calc(50% - 50px);
     left: calc(50% - 250px);
-    animation-delay: 470ms;
+    animation-delay: 1s;
 }
 
 .star:nth-child(4)::before, .star:nth-child(4)::after {
-    animation-delay: 470ms;
+    animation-delay: 1s;
 }
 
 
 .star:nth-child(5) {
     top: calc(50% - 190px);
     left: calc(50% - 200px);
-    animation-delay: 210ms;
+    animation-delay: 2s;
 }
 
 .star:nth-child(5)::before, .star:nth-child(5)::after {
-    animation-delay: 210ms;
+    animation-delay: 2s;
+}
+
+.star:nth-child(6) {
+    top: calc(50% - 230px);
+    left: calc(50% - 300px);
+    animation-delay: 3s;
+}
+
+.star:nth-child(6)::before, .star:nth-child(6)::after {
+    animation-delay: 3s;
+}
+
+.star:nth-child(7) {
+    top: calc(50% - 260px);
+    left: calc(50% - 250px);
+    animation-delay: 3.75s;
+}
+
+.star:nth-child(7)::before, .star:nth-child(7)::after {
+    animation-delay: 3.75s;
 }
 
 /* Animations */
@@ -130,11 +147,11 @@ html, body {
 
 @keyframes shooting {
     0% {
-        transform: translateX(0);
+        transform: translateX(0px);
     }
 
     100% {
-        transform: translateX(320px);
+        transform: translateX(22rem);
     }
 }
 
