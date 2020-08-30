@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* this might be removed since we do not want a border around the hero section  */
 }
 
 html, body {
@@ -10,16 +11,46 @@ html, body {
     color: #616161;
 }
 
+
+.sky_container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(125deg, #00103a 0%, #3e5f77 100%);
+}
+
+
+.star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+    filter: drop-shadow(0 0 6px #699bff);
+    animation: tall 3000ms ease-in-out infinite, shooting 300ms ease-in-out infinite;
+    transform: rotateZ(45deg);
+
+}
+
+
+/* previous hero section styling whivh might be removed if the new styling is successful 
 .hero_section {
-    background-color: #401a86;
+    background-color: #29345e;
     color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+*/
+
+
 
 .view_projects {
     color: #fff;
     border-color: #fff;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    position: relative;
+    z-index: 3;
 }
+
