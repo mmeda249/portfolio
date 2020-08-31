@@ -47,7 +47,7 @@ html, body {
     margin-left: auto;
     position: relative;
     z-index: 3;
-    padding: 0.6rem 1rem;
+    padding: 0.4rem 1rem;
     transition: 0.5s;
 }
 
@@ -62,7 +62,7 @@ html, body {
     content: '↓';
     position: absolute;
     opacity: 0;  
-    top: 10px;
+    top: 6px;
     right: -10px;
     transition: 0.5s;
   }
