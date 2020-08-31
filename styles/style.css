@@ -35,9 +35,13 @@ html, body {
     z-index: 3;
 }
 
+.hero_container {
+    margin-bottom: 22rem;
+}
+
 /* Hero section main button styling */
 
-.projects_btn {
+.hero_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     color: #fff;
@@ -51,14 +55,14 @@ html, body {
     transition: 0.5s;
 }
 
-.projects_btn:hover {
+.hero_btn:hover {
     background-color: #EF0D50;
     border-color: #fa255e;
     padding-right: 30px;
     padding-left: 18px;
 }
   
-  .projects_btn:after {
+  .hero_btn:after {
     content: '↓';
     position: absolute;
     opacity: 0;  
@@ -67,7 +71,7 @@ html, body {
     transition: 0.5s;
   }
   
-  .projects_btn:hover:after {
+  .hero_btn:hover:after {
     opacity: 1;
     right: 10px;
   }
@@ -116,6 +120,7 @@ html, body {
 
 /* Projects section */
 
-.projects_section {
-    margin-top: 18rem;
+.projects_btn {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
