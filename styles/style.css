@@ -13,11 +13,11 @@ html, body {
 .title h1 {
     font-family: 'Raleyway', sans-serif;
     font-size: 3rem;
-    margin: 10rem auto 2rem auto;
+    margin: 10rem auto 1rem auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: #fff;
+    color: #c39ea0;
     display: block;
     position: relative;
     z-index: 3;
@@ -48,8 +48,32 @@ html, body {
     position: relative;
     z-index: 3;
     padding: 0.6rem 1rem;
-    
+    transition: 0.5s;
 }
+
+.projects_btn:hover {
+    background-color: #fa255e;
+    border-color: #fa255e;
+}
+  
+  button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
 
 
 /* Animations for hero section */
