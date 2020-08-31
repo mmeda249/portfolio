@@ -177,7 +177,8 @@ html, body {
     margin-top: 25rem;
 }
 
-.projects_section h2, .about_section h2, .contact_section h2 {
+.projects_section h2, .about_section h2, .about_section h4, .contact_section h2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    text-transform: uppercase;
 }
