@@ -11,24 +11,24 @@ html, body {
 }
 
 .title h1 {
+    font-family: 'Raleyway', sans-serif;
     font-size: 3rem;
-    margin-top: 10rem;
+    margin: 10rem auto 2rem auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
     color: #fff;
-    background: -webkit-linear-gradient(#eee, #333); /* this code may be removed since a text background and coloring may not be necessary. Code from background until text-shadow below */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
-
     display: block;
     position: relative;
     z-index: 3;
 }
 
 .title h2 {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     color: #fff;
     display: block;
     position: relative;
@@ -37,14 +37,18 @@ html, body {
 
 /* Hero section main button styling */
 
-.view_projects {
+.projects_btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
     color: #fff;
     border-color: #fff;
-    margin: 1rem;
+    margin-top: 1rem;
     margin-right: auto;
     margin-left: auto;
     position: relative;
     z-index: 3;
+    padding: 0.6rem 1rem;
+    
 }
 
 
@@ -85,7 +89,7 @@ html, body {
 .clouds {
     background:transparent url(../images/clouds.png) repeat top center;
     z-index: 2;
-    opacity: 0.4;
+    opacity: 0.7;
     animation: clouds-background 1500s linear infinite;
 }
 
