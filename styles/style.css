@@ -228,6 +228,10 @@ html, body {
 
 /* Icon styling */
 
+.toolbox_container {
+    padding-bottom: 2rem;
+}
+
 .fa-html5 {
     color: #ff4800;
     font-size: 4rem;
@@ -257,3 +261,24 @@ html, body {
    color: #00aeff;
    font-size: 4rem;
 }
+
+
+/* Extra small devices (portrait phones, less than 576px)
+
+/* Extra small devices (portrait phones, 576px and down) */
+@media (max-width: 576px) { 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
