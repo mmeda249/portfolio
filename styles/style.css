@@ -64,6 +64,13 @@ html, body {
     animation: twinkle-background 1500s linear infinite;
 }
 
+.clouds {
+    background:transparent url(../images/clouds.png) repeat top center;
+    z-index: 2;
+    opacity: 0.4;
+    animation: clouds-background 1500s linear infinite;
+}
+
 /* Projects section */
 
 .view_projects {
