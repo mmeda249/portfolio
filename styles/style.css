@@ -10,11 +10,18 @@ html, body {
     color: #616161;
 }
 
+.hero_background {
+    display: block;
+}
+
+
+
 .title h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 3rem;
-    margin: 10rem auto 1rem auto;
+    margin-top: 10rem;
     margin-left: auto;
+    margin-bottom: 1rem; 
     margin-right: auto;
     text-align: center;
     color: #c39ea0;
@@ -39,10 +46,57 @@ html, body {
     color: #ac64ff;
 }
 
-.hero_container {
+/* Animations for hero section star background */
+
+@keyframes clouds-background {
+    from {background-position: 0 0;}
+    to {background-position: 10000px 0;}
+}
+
+@keyframes twinkle-background {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 5000px;}
+}
+
+.stars, .twinkling, .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
+    display: block;
 }
+
+.stars {
+    background: #000;
+    background-image: url(../images/stars.png);
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.twinkling {
+    background: transparent;
+    background-image: url(../images/twinkling.png);
+    background-repeat: repeat;
+    background-position: top center;
+    z-index: 1;
+    animation: twinkle-background 200s linear infinite;
+}
+
+.clouds {
+    background: transparent;
+    background-image: url(../images/clouds.png);
+    background-repeat: repeat;
+    background-position: top center;
+    opacity: 0.6;
+    z-index: 2;
+    animation: clouds-background 200s linear infinite;
+}
+
 
 /* Button styling */
 
@@ -66,16 +120,16 @@ html, body {
     padding-right: 30px;
     padding-left: 18px;
 }
-  
+
   .hero_btn:after {
     content: '↓';
     position: absolute;
-    opacity: 0;  
+    opacity: 0;
     top: 6px;
     right: -10px;
     transition: 0.5s;
   }
-  
+
   .hero_btn:hover:after {
     opacity: 1;
     right: 10px;
@@ -105,7 +159,7 @@ html, body {
   .demo_btn:after {
     content: '→';
     position: absolute;
-    opacity: 0;  
+    opacity: 0;
     top: 8px;
     right: -12px;
     transition: 0.5s;
@@ -117,113 +171,8 @@ html, body {
   }
 
 
-/* Animations for hero section */
+/* Projects section styling */
 
-@keyframes clouds-background {
-    from {background-position: 0 0;}
-    to {background-position: 100000px 5000px;}
-}
-
-@keyframes twinkle-background {
-    from {background-position: 0 0;}
-    to {background-position: -100000px 5000px;}
-}
-
-.stars, .twinkling, .clouds {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: block;
-}
-
-.stars {
-    background: #000 url(../images/stars.png) repeat top center;
-    z-index: 0;
-}
-
-.twinkling {
-    background:transparent url(../images/twinkling.png) repeat top center;
-    z-index: 1;
-    animation: twinkle-background 2500s linear infinite;
-}
-
-.clouds {
-    background:transparent url(../images/clouds.png) repeat top center;
-    z-index: 2;
-    opacity: 0.7;
-    animation: clouds-background 1500s linear infinite;
-}
-
-/* Projects section */
-
-.projects_header {
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-}
-
-
-/* may eliminate these lines
-
-.fa-slash {
-    transition: 1s;
-    letter-spacing: -25px;
-    transform: rotateX(30deg);
-    font-size: 1.5rem;
-    font-weight: 200;
-}
-
-.slash_space_right {
-    padding-right: 2.3rem;
-    color: #fa255e;
-}
-
-.slash_space_left {
-    padding-left: 0.3rem;
-    color: #fa255e;
-}
-
-*/
-
-.demo_btn {
-    background-color: #fa255e;
-    border-color: #fa255e;
-}
-
- .projects_card {
-    margin-left: 5rem;
-    margin-right: 5rem
- }
-
- /* Icon styling */
-
- .fa-html5 {
-     color: #ff4800;
-     font-size: 4rem;
- }
-
- .fa-css3-alt {
-    color: #0084ff;
-    font-size: 4rem;
-}
-
-.fa-js {
-    color: #ffd000;
-    font-size: 4rem;
-}
-
-.fa-bootstrap {
-    color: #7700ff;
-    font-size: 4rem;
-}
-
-.fa-git {
-    color: #ff5e00;
-    font-size: 4rem;
-}
-
-.fa-react {
-    color: #00aeff;
-    font-size: 4rem;
+.projects_section {
+    margin-top: 30rem;
 }
