@@ -96,7 +96,6 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
-
     display: block;
 }
 
@@ -120,12 +119,11 @@ html, body {
 
 /* Projects section */
 
-#projects_section {
-    background: #fff;
-    position: absolute;
-
-}
-
 .demo_btn {
     background-color: #fa255e;
+}
+
+.fa-slash {
+    transition: 1s;
+    letter-spacing: -25px;
 }
