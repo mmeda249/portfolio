@@ -119,12 +119,72 @@ html, body {
 
 /* Projects section */
 
-.demo_btn {
-    background-color: #fa255e;
+.projects_header {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
 }
+
+
+/* may eliminate these lines
 
 .fa-slash {
     transition: 1s;
     letter-spacing: -25px;
-    transform: rotateX(220deg);
+    transform: rotateX(30deg);
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.slash_space_right {
+    padding-right: 2.3rem;
+    color: #fa255e;
+}
+
+.slash_space_left {
+    padding-left: 0.3rem;
+    color: #fa255e;
+}
+
+*/
+
+.demo_btn {
+    background-color: #fa255e;
+    border-color: #fa255e;
+}
+
+ .projects_card {
+    margin-left: 5rem;
+    margin-right: 5rem
+ }
+
+ /* Icon styling */
+
+ .fa-html5 {
+     color: #ff4800;
+     font-size: 4rem;
+ }
+
+ .fa-css3-alt {
+    color: #0084ff;
+    font-size: 4rem;
+}
+
+.fa-js {
+    color: #ffd000;
+    font-size: 4rem;
+}
+
+.fa-bootstrap {
+    color: #7700ff;
+    font-size: 4rem;
+}
+
+.fa-git {
+    color: #ff5e00;
+    font-size: 4rem;
+}
+
+.fa-react {
+    color: #00aeff;
+    font-size: 4rem;
 }
