@@ -115,3 +115,7 @@ html, body {
 }
 
 /* Projects section */
+
+.projects_section {
+    margin-top: 18rem;
+}
