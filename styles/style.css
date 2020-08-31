@@ -135,17 +135,23 @@ html, body {
     right: 10px;
   }
 
+  .project_btns {
+    margin-top: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1.5rem;
+  }
+
   .demo_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     color: #fff;
+    background: #ef0d50;
     border-color: #ef0d50;
-    margin-top: 1rem;
-    margin-right: auto;
-    margin-left: auto;
     position: relative;
     z-index: 3;
     padding: 0.4rem 1rem;
+    margin-right: 1rem;
     transition: 0.5s;
 }
 
@@ -165,7 +171,33 @@ html, body {
     transition: 0.5s;
   }
 
-  .demo_btn:hover:after {
+  .code_btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    border-color: #ef0d50;
+    position: relative;
+    z-index: 3;
+    padding: 0.4rem 1rem;
+    transition: 0.5s;
+}
+
+.code_btn:hover {
+    background-color: #EF0D50;
+    border-color: #ef0d50;
+    padding-right: 30px;
+    padding-left: 18px;
+}
+
+  .code_btn:after {
+    content: '→';
+    position: absolute;
+    opacity: 0;
+    top: 8px;
+    right: -12px;
+    transition: 0.5s;
+  }
+
+  .demo_btn:hover:after, .code_btn:hover:after {
     opacity: 1;
     right: 10px;
   }
