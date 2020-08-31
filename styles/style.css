@@ -28,6 +28,24 @@ html, body {
     z-index: 3;
 }
 
+.title h2 {
+    color: #fff;
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+/* Hero section main button styling */
+
+.view_projects {
+    color: #fff;
+    border-color: #fff;
+    margin: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 3;
+}
 
 
 /* Animations for hero section */
@@ -69,18 +87,6 @@ html, body {
     z-index: 2;
     opacity: 0.4;
     animation: clouds-background 1500s linear infinite;
-}
-
-/* Hero section main button styling */
-
-.view_projects {
-    color: #fff;
-    border-color: #fff;
-    margin: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    z-index: 3;
 }
 
 /* Projects section */
