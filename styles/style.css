@@ -126,4 +126,5 @@ html, body {
 .fa-slash {
     transition: 1s;
     letter-spacing: -25px;
+    transform: rotateX(220deg);
 }
