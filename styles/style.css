@@ -263,6 +263,27 @@ html, body {
 }
 
 
+/* Contact section styling */
+
+/* Footer styling */
+
+footer {
+    background: #0b0f0f;
+    font-family: 'Raleyway', sans-serif;
+    padding-top: 2rem;
+}
+
+.fa-linkedin-in, .fa-instagram, .fa-github {
+    font-size: 1.3rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.fa-linkedin-in:hover, .fa-instagram:hover, .fa-github:hover {
+    color: #ef0d50;
+} 
+
+
 /* Extra small devices (portrait phones, less than 576px)
 
 /* Extra small devices (portrait phones, 576px and down) */
