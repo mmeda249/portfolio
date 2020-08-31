@@ -149,27 +149,26 @@ html, body {
     margin-bottom: 1.5rem;
   }
 
-  .demo_btn {
+  .demo_btn, .submit_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     color: #fff;
     background: #ef0d50;
     border-color: #ef0d50;
     position: relative;
-    z-index: 3;
     padding: 0.4rem 1rem;
     margin-right: 1rem;
     transition: 0.5s;
 }
 
-.demo_btn:hover {
+.demo_btn:hover, .submit_btn:hover {
     background-color: #EF0D50;
     border-color: #ef0d50;
     padding-right: 30px;
     padding-left: 18px;
 }
 
-  .demo_btn:after {
+  .demo_btn:after, .submit_btn:after {
     content: '→';
     position: absolute;
     opacity: 0;
@@ -182,7 +181,6 @@ html, body {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     position: relative;
-    z-index: 3;
     padding: 0.4rem 1rem;
     transition: 0.5s;
 }
@@ -201,7 +199,7 @@ html, body {
     transition: 0.5s;
   }
 
-  .demo_btn:hover:after, .code_btn:hover:after {
+  .demo_btn:hover:after, .code_btn:hover:after, .submit_btn:hover:after {
     opacity: 1;
     right: 10px;
   }
@@ -264,6 +262,17 @@ html, body {
 
 
 /* Contact section styling */
+
+#contact_container {
+    background: #1a2424;
+}
+
+.submit_btn {
+    background: #ef0d50;
+    border-color: #ef0d50;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 /* Footer styling */
 
