@@ -224,3 +224,36 @@ html, body {
 #about_container {
     background: #f7f3f3;
 }
+
+
+/* Icon styling */
+
+.fa-html5 {
+    color: #ff4800;
+    font-size: 4rem;
+}
+
+.fa-css3-alt {
+   color: #0084ff;
+   font-size: 4rem;
+}
+
+.fa-js {
+   color: #ffd000;
+   font-size: 4rem;
+}
+
+.fa-bootstrap {
+   color: #7700ff;
+   font-size: 4rem;
+}
+
+.fa-git {
+   color: #ff5e00;
+   font-size: 4rem;
+}
+
+.fa-react {
+   color: #00aeff;
+   font-size: 4rem;
+}
