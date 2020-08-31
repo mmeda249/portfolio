@@ -99,7 +99,7 @@ html, body {
 
 /* General section spacing */
 
-.projects_section, .about_section, .contact_section, .footer_section {
+.projects_section, .about_section, .footer_section {
     width: 80%;
     padding-bottom: 2rem;
 }
@@ -267,10 +267,27 @@ html, body {
     background: #1a2424;
 }
 
+.contact_section {
+    width: 100%;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
 .submit_btn {
     background: #ef0d50;
     border-color: #ef0d50;
     font-family: 'Raleway', sans-serif;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -294,15 +311,18 @@ html, body {
 } 
 
 
-/* Extra small devices (portrait phones, less than 576px)
-
-/* Extra small devices (portrait phones, 576px and down) */
+/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
+    input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-   
+@media (max-width: 768px) { 
+    input[type="text"], input[type="email"], textarea {
+        width: 75%;
+        }
 }
 
 /* Medium devices (tablets, 768px and up) */
