@@ -10,6 +10,43 @@ html, body {
     color: #616161;
 }
 
+.title h1 {
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    color: #fff;
+    background: -webkit-linear-gradient(#eee, #333); /* this code may be removed since a text background and coloring may not be necessary. Code from background until text-shadow below */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+/* Animations for hero section */
+
+@keyframes move-clouds-back {
+    from {background-position: 0 0;}
+    to {background-position: 100000px 0;}
+}
+
+@keyframes move-twinkle-back {
+    from {background-position: 0 0;}
+    to {background-position: -100000px 5000px;}
+}
+
+.stars {
+    
+}
+
+/* Projects section */
 
 .view_projects {
     color: #fff;
