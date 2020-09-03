@@ -357,6 +357,13 @@ form {
 
 /* Footer styling */
 
+.back_topBtn {
+    display: inline-block;
+    background: #ef0d50;
+    position: relative;
+    z-index: 5;
+}
+
 #footer_container {
     background: #0e0716;
     font-family: 'Raleyway', sans-serif;
