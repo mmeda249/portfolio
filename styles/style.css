@@ -29,7 +29,7 @@ nav {
 nav .logo {
     font-size: 1.5rem;
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 nav ul {
@@ -46,7 +46,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 8px 10px;
@@ -65,6 +65,7 @@ nav .menu_btn i {
     font-size: 22px;
     cursor: pointer;
     display: none;
+    padding-top: 0.5rem;
 }
 
 #click {
@@ -83,7 +84,7 @@ nav .menu_btn i {
 
     nav ul {
         position: fixed;
-        top: 80px;
+        top: 40px;
         left: -100%;
         background: #111;
         opacity: 0.95;
@@ -108,7 +109,7 @@ nav .menu_btn i {
     }
 
     nav ul li a:hover, nav ul li a.active {
-        color: cyan;
+        color: #ef0d50;
         background: none;
     }
 }
@@ -173,8 +174,8 @@ nav .menu_btn i {
 }
 
 .hero_btn:hover {
-    background-color: #EF0D50;
-    border-color: #ef0d50;
+    background-color: #7700ff;
+    border-color: #7700ff;
     padding-right: 30px;
     padding-left: 18px;
 }
@@ -204,8 +205,8 @@ nav .menu_btn i {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     color: #fff;
-    background: #ef0d50;
-    border-color: #ef0d50;
+    background: #7700ff;
+    border-color: #7700ff;
     position: relative;
     padding: 0.4rem 1rem;
     margin-right: 1rem;
@@ -239,6 +240,8 @@ nav .menu_btn i {
 .code_btn:hover {
     padding-right: 30px;
     padding-left: 18px;
+    background: #ef0d50;
+    border-color: #ef0d50; 
 }
 
   .code_btn:after {
@@ -259,7 +262,7 @@ nav .menu_btn i {
 /* Projects section styling */
 
 .projects_section h2, .about_section h2, .about_section h4, .contact_section h2 {
-    padding-top: 2rem;
+    padding-top: 3.5rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
 }
@@ -344,6 +347,11 @@ input[type="text"], input[type="email"], textarea {
     font-family: 'Raleway', sans-serif;
     display: block;
     margin: 0 auto;
+}
+
+form {
+    padding-bottom: 4rem;
+    padding-top: 0.5rem;
 }
 
 
