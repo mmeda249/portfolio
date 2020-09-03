@@ -8,9 +8,6 @@ html, body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     color: #616161;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
 }
 
 .title h1 {
@@ -49,14 +46,18 @@ nav {
     background: #000;
     height: 80px;
     width: 100%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 label.logo {
     color: #fff;
     font-size: 2rem;
     line-height: 35px;
-    padding: 0 100px;
+    padding: 0 75px;
     font-weight: bold;
+    margin-top: 1.2rem;
 }
 
 nav ul {
@@ -68,6 +69,46 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav a.active, nav a:hover {
+    background: #7700ff;
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.checkbtn {
+    font-size: 1.5rem;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 1.5rem;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
 }
 
 
