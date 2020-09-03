@@ -18,10 +18,10 @@ html, body {
     margin-bottom: 1rem; 
     margin-right: auto;
     text-align: center;
-    color: green;
+    color: #ececec;
     display: block;
     position: relative;
-    z-index: 3;
+
 }
 
 .title h2 {
@@ -30,14 +30,14 @@ html, body {
     padding-right: 2rem;
     margin-left: auto;
     margin-right: auto;
-    color: #5f0c25;
+    color: #b69fa6;
     display: block;
     position: relative;
     z-index: 3;
 }
 
 .my_name {
-    color: green;
+    color: #ececec;
 }
 
 /* Navigation */
@@ -100,6 +100,7 @@ nav a.active, nav a:hover {
     display: none;
 }
 
+
 @media (max-width: 952px) {
     label.logo {
         font-size: 1.5rem;
@@ -119,11 +120,13 @@ nav a.active, nav a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #aa7bdf;
+        background: #000;
+        opacity: 0.85;
         top: 80px;
         left: -100%;
         transition: all 0.5s;
         text-align: center;
+        z-index: 5;
     }
     nav ul li {
         display: block;
@@ -143,7 +146,7 @@ nav a.active, nav a:hover {
     #check:checked ~ ul {
         left: 0;
     }
-    
+
     #hero_background {
     height: calc(100vh -80px);
     }
@@ -152,7 +155,7 @@ nav a.active, nav a:hover {
 
 /* Hero Section*/
 #hero_background {
-    background: url(/images/landscape.jpg) no-repeat;
+    background: url(../images/sunrise.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
