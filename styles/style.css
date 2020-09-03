@@ -91,10 +91,18 @@ nav .menu_btn i {
     display: none;
 }
 
+#click {
+    display: none;
+}
+
 @media (max-width: 940px) {
 
     nav .menu_btn i {
         display: block;
+    }
+
+    #click:checked ~ .menu_btn i:before {
+        content: "\f00d";
     }
 
     nav ul {
