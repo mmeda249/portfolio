@@ -46,6 +46,7 @@ html, body {
 nav {
     height: 80px;
     background: #1b1b1b;
+    opacity: 0.95;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -110,6 +111,7 @@ nav .menu_btn i {
         top: 80px;
         left: -100%;
         background: #111;
+        opacity: 0.95;
         height: 100vh;
         width: 100%;
         display: block;

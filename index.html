@@ -21,9 +21,9 @@
     </label>
       <ul>
         <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about_container">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact_container">Contact</a></li>
         <li><i class="fab fa-linkedin-in"></i>
           <i class="fab fa-instagram"></i>
           <i class="fab fa-github"></i></li>
@@ -68,7 +68,10 @@
 
     <!-- Projects -->
     
-    <div class="container-fluid text-center projects_section">
+    
+    <section id="projects">
+
+   <div class="container-fluid text-center projects_section">
       <h2>Projects</h2>
 
 
@@ -110,7 +113,7 @@
 
 
   </div>
-
+</section>
 
 
     <!-- Contacts -->
@@ -119,9 +122,9 @@
                 <h2>Contact Me</h2>
         
         <form action="">
-            <input type="text" id= "fname" name="fname" placeholder="First Name">
-            <input type="text" id= "lname" name="lname" placeholder="Last Name">
-            <input type="email" id= "email" name="email" placeholder="Email">
+            <input type="text" id= "fname" name="fname" placeholder="First Name" required>
+            <input type="text" id= "lname" name="lname" placeholder="Last Name" required>
+            <input type="email" id= "email" name="email" placeholder="Email" required>
             <textarea name="message" id="message" placeholder="Your Message" cols="30" rows="10"></textarea>
             <button class="btn btn-primary submit_btn">Submit</button>
         </form>
