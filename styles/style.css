@@ -6,15 +6,12 @@
 html, body {
     width: 100%;
     height: 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #616161;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
-
-.hero_background {
-    display: block;
-}
-
-
 
 .title h1 {
     font-family: 'Raleway', sans-serif;
@@ -36,7 +33,7 @@ html, body {
     padding-right: 2rem;
     margin-left: auto;
     margin-right: auto;
-    color: #fff;
+    color: #5f0c25;
     display: block;
     position: relative;
     z-index: 3;
@@ -46,56 +43,36 @@ html, body {
     color: #ac64ff;
 }
 
-/* Animations for hero section star background */
+/* Navigation */
 
-@keyframes clouds-background {
-    from {background-position: 0 0;}
-    to {background-position: 10000px 0;}
-}
-
-@keyframes twinkle-background {
-    from {background-position: 0 0;}
-    to {background-position: -10000px 5000px;}
-}
-
-.stars, .twinkling, .clouds {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.stars {
+nav {
     background: #000;
-    background-image: url(../images/stars.png);
-    background-repeat: repeat;
-    background-position: top center;
-    background-size: cover;
-    z-index: 0;
+    height: 80px;
+    width: 100%;
 }
 
-.twinkling {
-    background: transparent;
-    background-image: url(../images/twinkling.png);
-    background-repeat: repeat;
-    background-position: top center;
-    z-index: 1;
-    animation: twinkle-background 200s linear infinite;
+label.logo {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 35px;
+    padding: 0 100px;
+    font-weight: bold;
 }
 
-.clouds {
-    background: transparent;
-    background-image: url(../images/clouds.png);
-    background-repeat: repeat;
-    background-position: top center;
-    opacity: 0.6;
-    z-index: 2;
-    animation: clouds-background 200s linear infinite;
+nav ul {
+    float: right;
+    margin-right: 20px;
 }
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+
+/* Hero Section*/
+
 
 /* General section spacing */
 
