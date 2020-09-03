@@ -45,7 +45,7 @@ html, body {
 
 nav {
     height: 80px;
-    background: #1b1b1b;
+    background: #c59595;
     opacity: 0.95;
     display: flex;
     align-items: center;
@@ -141,7 +141,7 @@ nav .menu_btn i {
 
 /* Hero Section*/
 #hero_background {
-    background: url(../images/sunrise.jpg) no-repeat;
+    background: url(../images/white_keyboard.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
