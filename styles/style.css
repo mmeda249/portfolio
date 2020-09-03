@@ -11,32 +11,6 @@ html, body {
     color: #616161;
 }
 
-.title h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
-    padding-top: 5rem;
-    margin-left: auto;
-    margin-bottom: 1rem; 
-    margin-right: auto;
-    text-align: center;
-    color: #ececec;
-    display: block;
-    position: relative;
-
-}
-
-.title h2 {
-    font-size: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    color: #b69fa6;
-    display: block;
-    position: relative;
-    z-index: 3;
-}
-
 .my_name {
     color: #ececec;
 }
@@ -141,9 +115,29 @@ nav .menu_btn i {
 
 /* Hero Section*/
 #hero_background {
-    background: url(../images/white_keyboard.jpg) no-repeat;
+    background: url(../images/white_keyboard_overlay.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.hero_container {
+    padding-top: 15rem;
+}
+
+.title h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem; 
+    text-align: center;
+    color: #ececec;
+    display: block;
+    position: relative;
+}
+
+.title h2 {
+    font-size: 1.5rem;
+    color: #b69fa6;
+    display: block;
+    position: relative;
 }
 
 
