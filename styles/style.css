@@ -11,16 +11,11 @@ html, body {
     color: #616161;
 }
 
-.my_name {
-    color: #ececec;
-}
-
 /* Navigation */
 
 nav {
     height: 80px;
-    background: #c59595;
-    opacity: 0.95;
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,8 +40,9 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 500;
+    text-transform: uppercase;
     letter-spacing: 1px;
     padding: 8px 10px;
     border-radius: 5px;
@@ -121,12 +117,13 @@ nav .menu_btn i {
 }
 
 .hero_container {
-    padding-top: 15rem;
+    padding-top: 14rem;
 }
 
 .title h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 3rem; 
+    font-size: 3rem;
+    padding-bottom: 2rem; 
     text-align: center;
     color: #ececec;
     display: block;
@@ -135,9 +132,14 @@ nav .menu_btn i {
 
 .title h2 {
     font-size: 1.5rem;
-    color: #b69fa6;
+    padding-bottom: 1rem; 
+    color: #fff;
     display: block;
     position: relative;
+}
+
+.my_name {
+    color:#3e1866;
 }
 
 
