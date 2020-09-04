@@ -317,6 +317,30 @@ nav .menu_btn i {
     text-transform: uppercase;
 }
 
+.projects_background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #61384c;
+}
+
+.conatiner {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 420px;
+}
+
+
 /* About section styling */
 
 #about_container {
