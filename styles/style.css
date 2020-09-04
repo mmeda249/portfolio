@@ -329,31 +329,25 @@ nav .menu_btn i {
     padding-bottom: 2rem;
 }
 
-.toolbox {
+.fa-html5 {
+    color: #ff4800;
+    font-size: 4rem;
+}
+
+.html_icon {
     animation-name: htmlIcon;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    
+    animation-duration: 3.75s;
+    animation-timing-function: ease-out;
 }
 
 @keyframes htmlIcon {
     0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0;
+        left: -100%;
     }
 
     100% {
-        opacity: 1;
+        left: 0;
     }
-
-}
-
-.fa-html5 {
-    color: #ff4800;
-    font-size: 4rem;
 }
 
 .fa-css3-alt {
@@ -361,9 +355,41 @@ nav .menu_btn i {
    font-size: 4rem;
 }
 
+.css_icon {
+    animation-name: cssIcon;
+    animation-duration: 3.25s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes cssIcon {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
 .fa-js {
    color: #ffd000;
    font-size: 4rem;
+}
+
+.js_icon {
+    animation-name: jsIcon;
+    animation-duration: 2.75s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes jsIcon {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
 }
 
 .fa-bootstrap {
@@ -371,14 +397,62 @@ nav .menu_btn i {
    font-size: 4rem;
 }
 
+.bootstrap_icon {
+    animation-name: bootstrapIcon;
+    animation-duration: 2.25s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bootstrapIcon {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
 .fa-git {
    color: #ff5e00;
    font-size: 4rem;
 }
 
+.git_icon {
+    animation-name: gitIcon;
+    animation-duration: 1.75s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes gitIcon {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
 .fa-react {
    color: #00aeff;
    font-size: 4rem;
+}
+
+.react_icon {
+    animation-name: reactIcon;
+    animation-duration: 1.25s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes reactIcon {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
 }
 
 
