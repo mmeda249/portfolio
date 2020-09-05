@@ -16,8 +16,8 @@ html, body {
 /* Navigation */
 
 a {
-    text-decoration: none;
-    color: #eee;
+    text-decoration: none !important;
+    color: #eee !important;
 }
 
 header {
@@ -47,7 +47,7 @@ header {
 }
 
 nav {
-    padding-top: 3rem;
+    padding-top: 2.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,11 +92,13 @@ nav ul li:nth-child(4){
 	animation-delay: 1.5s;
 }
 
-nav ul li a{
+nav ul li a {
 	padding: 1rem 0;
 	margin: 0 3rem;
 	position: relative;
-	letter-spacing: 2px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #eeeeee;
 }
 
 nav ul li a:last-child{
