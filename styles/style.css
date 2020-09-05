@@ -13,7 +13,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/* Navigation & Hero Section */
+/* Navigation */
 
 a {
     text-decoration: none;
@@ -47,16 +47,16 @@ header {
 }
 
 nav {
-    padding-top: 5rem;
+    padding-top: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 }
 
 .brand {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 300;
     transform: translateX(-100rem);
     animation: slideIn 0.5s forwards;
@@ -69,7 +69,6 @@ nav {
 nav ul {
     display: flex;
 }
-
 
 nav ul li {
     list-style: none;
@@ -197,22 +196,11 @@ nav ul li a:hover::after{
 
 /* Hero Section*/
 
-/* commenting this out for now as we text new nav
-
-#hero_background {
-    background: url(../images/white_keyboard_overlay1.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-.hero_container {
-    padding-top: 12rem;
-}
-
 .title h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 3rem;
-    padding-bottom: 2rem; 
+    padding-top: 7rem;
+    padding-bottom: 1.5rem; 
     text-align: center;
     color: #ececec;
     display: block;
@@ -277,8 +265,6 @@ nav ul li a:hover::after{
 /* Button styling */
 
 
-/* commenting this out for now as we text new nav
-
 .hero_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
@@ -331,8 +317,6 @@ nav ul li a:hover::after{
     opacity: 1;
     right: 13px;
   }
-
-  */
 
   .project_btns {
     margin-top: 1.5rem;
