@@ -311,7 +311,12 @@ nav .menu_btn i {
 
 /* Projects section styling */
 
-.projects_section h2, .about_section h2, .about_section h4, .contact_section h2 {
+
+#projects {
+    background: #3e1866;
+}
+
+#projects h2, .about_section h2, .about_section h4, .contact_section h2 {
     padding-top: 3.5rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
@@ -383,6 +388,7 @@ width: 100%;
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
+    transition-delay: 0.3s;
 }
 
 /* About section styling */
