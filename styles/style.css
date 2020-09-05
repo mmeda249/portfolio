@@ -10,116 +10,56 @@ html, body {
     font-family: 'Poppins', sans-serif;
     color: #616161;
     font-weight: 400;
+    scroll-behavior: smooth;
 }
 
-/* Navigation */
+/* Navigation & Hero Section */
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/white_keyboard_overlay.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero_container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 2.5rem;
+    right: 2.5rem;
+    color: #eeeeee;
+    font-size: 1.7rem;
+    cursor: pointer;
+    z-index: 10000;
+    display: none;
+}
 
 nav {
-    height: 60px;
-    background: transparent;
+    padding-top: 5rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0px 50px 0px 100px;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
-nav .logo {
-    font-size: 1.5rem;
-    color: #fff;
-    font-weight: 400;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    padding-top: 1rem;
-}
-
-nav ul li {
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 300;
+    align-items: center;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 8px 10px;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-nav ul li a:hover, nav ul li a.active {
-    color: #3e1866;
-    background: #fff;
-    text-decoration: none;
-}
-
-nav ul li i {
-    color: #fff;
-}
-
-nav .menu_btn i {
-    color: #fff;
-    font-size: 22px;
-    cursor: pointer;
-    display: none;
-    padding-top: 0.5rem;
-}
-
-#click {
-    display: none;
-}
-
-@media (max-width: 940px) {
-
-    nav .menu_btn i {
-        display: block;
-    }
-
-    #click:checked ~ .menu_btn i:before {
-        content: "\f00d";
-    }
-
-    nav ul {
-        position: fixed;
-        top: 60px;
-        left: -100%;
-        background:rgba(14, 7, 22, 0.95);
-        height: 100vh;
-        width: 100%;
-        display: block;
-        text-align: center;
-        transition: all 0.3s ease;
-    }
-
-    #click:checked ~ ul {
-        left: 0%;
-    }
-
-    nav ul li {
-        margin: 40px 0;
-    }
-
-    nav ul li a {
-        font-size: 20px;
-        display: block;
-    }
-
-    nav ul li a:hover, nav ul li a.active {
-        color: #ef0d50;
-        background: none;
-    }
+	font-size: 1.3rem;
 }
 
 
 /* Hero Section*/
+
+/* commenting this out for now as we text new nav
+
 #hero_background {
     background: url(../images/white_keyboard_overlay1.jpg) no-repeat;
     background-size: cover;
@@ -180,6 +120,7 @@ nav .menu_btn i {
     color:#3e1866;
 }
 
+*/
 
 /* General section spacing */
 
@@ -195,6 +136,9 @@ nav .menu_btn i {
 }
 
 /* Button styling */
+
+
+/* commenting this out for now as we text new nav
 
 .hero_btn {
     font-family: 'Raleway', sans-serif;
@@ -248,6 +192,8 @@ nav .menu_btn i {
     opacity: 1;
     right: 13px;
   }
+
+  */
 
   .project_btns {
     margin-top: 1.5rem;
