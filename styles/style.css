@@ -350,7 +350,7 @@ html, body {
 
 /* About section styling */
 
-/* Projects section styling */
+/* Projects section styling : commenting this out for now while we test new card style iteration
 
 #projects {
     background-color: rgba(14, 7, 22, 0.95);
@@ -430,6 +430,9 @@ html, body {
     margin-top: -40px;
     transition-delay: 0.3s;
 }
+
+*/
+
 /* Icon styling */
 
 .toolbox_container {
