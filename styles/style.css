@@ -103,7 +103,7 @@ html, body {
 
     .main-header.scrolled {
         height: 70px;
-        background: rgba(14, 7, 22, 0.8);
+        background: rgba(14, 7, 22, 0.85);
         color: #fff;
     }
 
@@ -126,7 +126,7 @@ html, body {
             height: auto;
             flex-direction: column;
             justify-content: space-evenly;
-            background-color: rgba(14, 7, 22, 0.8);
+            background-color: rgba(14, 7, 22, 0.85);
             overflow: hidden;
             transition: all 0.5s ease-in-out;
         }
@@ -162,7 +162,7 @@ html, body {
     font-family: 'Raleway', sans-serif;
     font-size: 3rem;
     margin-top: 8rem;
-    padding-top: 1rem;
+    padding-top: 5rem;
     padding-bottom: 1.5rem; 
     text-align: center;
     color: #ececec;
@@ -565,7 +565,7 @@ html, body {
 
 /* Contact section styling */
 
-#contact_container {
+#contact {
     background: #301550;
 }
 
