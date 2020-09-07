@@ -1,4 +1,4 @@
-// Mobile nav
+// Navigation bar will change color when user scrolls 70px down and beyond
 
 const header = document.querySelector('.main-header');
 
@@ -11,27 +11,26 @@ window.addEventListener('scroll', () => {
   }
 });
 
-
-// Open mobile menu when user clicks
-
+// When the user clicks a link from the navigation toggler, the nav will collapse again
 
 // Change navigation active link color as the user scrolls down the page
 
 
 // Close mobile menu on click - the code below might not be used
 
+
 $(function() {
     var menuVisible = false;
-    $('#menuBtn').click(function() {
+    $('.menu-item').click(function() {
       if (menuVisible) {
-        $('#myMenu').css({'display':'none'});
+        $('.links').css({'display':'none'});
         menuVisible = false;
         return;
       }
-      $('#myMenu').css({'display':'block'});
+      $('.links').css({'display':'block'});
       menuVisible = true;
     });
-    $('#myMenu').click(function() {
+    $('.links').click(function() {
       $(this).css({'display':'none'});
       menuVisible = false;
     });
