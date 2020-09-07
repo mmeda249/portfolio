@@ -18,7 +18,7 @@ html, body {
     header {
         width: 100%;
         height: 100vh;
-        background: url(../images/white_keyboard_overlay.jpg);
+        background: url(../images/white_keyboard_overlay1.jpg);
         background-size: cover;
         position: relative;
         overflow: hidden;
@@ -37,7 +37,7 @@ html, body {
         right: 0;
         top: 0;
         padding: 0 5%;
-        height: 100px;
+        height: 70px;
         background-color: transparent;
     }
 
@@ -47,7 +47,7 @@ html, body {
         height: 100%;
         display: flex;
         align-items: center;
-        font-size: 24px;
+        font-size: 1.5rem;
         color: #fff;
     }
 
@@ -69,14 +69,14 @@ html, body {
     nav .links a {
         display: block;
         padding: 1rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: #fff;
         text-decoration: none;
         text-transform: uppercase;
     }
 
     nav .links a:hover {
-        color: crimson;
+        color: #ef0d50;
     }
 
     #nav-toggle {
@@ -101,6 +101,12 @@ html, body {
         transition: all 0.3s ease-in-out;
     }
 
+    .main-header.scrolled {
+        height: 70px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+    }
+
     @media screen and (max-width: 768px) {
         nav .logo {
             float: none;
@@ -114,7 +120,7 @@ html, body {
             z-index: 9;
             left: 0;
             right: 0;
-            top: 100px;
+            top: 70px;
             bottom: 100%;
             width: auto;
             height: auto;

@@ -1,29 +1,18 @@
-// Open mobile menu when user clicks
+// Mobile nav
 
-var open = document.getElementById('hamburger');
-var changeIcon = true;
+const header = document.querySelector('.main-header');
 
-open.addEventListener("click", function(){
-
-    var overlay = document.querySelector('.overlay');
-    var nav = document.querySelector('nav');
-    var icon = document.querySelector('.menu-toggle i');
-
-    overlay.classList.toggle("menu-open");
-    nav.classList.toggle("menu-open");
-
-    if (changeIcon) {
-        icon.classList.remove("fa-bars");
-        icon.classList.add("fa-times");
-
-        changeIcon = false;
-    }
-    else {
-        icon.classList.remove("fa-times");
-        icon.classList.add("fa-bars");
-        changeIcon = true;
-    }
+window.addEventListener('scroll', () => {
+  const scrollPos = window.scrollY;
+  if(scrollPos > 10) {
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
+  }
 });
+
+
+// Open mobile menu when user clicks
 
 
 // Change navigation active link color as the user scrolls down the page
