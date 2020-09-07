@@ -101,11 +101,28 @@ html, body {
             float: none;
             position: fixed;
             z-index: 9;
+            left: 0;
+            right: 0;
+            top: 100px;
+            bottom: 100%;
+            width: auto;
+            height: auto;
+            flex-direction: column;
             background-color: rgba(0, 0, 0, 0.8);
+            overflow: hidden;
+            transition: all 0.5s ease-in-out;
+        }
+
+        nav .links a {
+            font-size: 20px;
         }
 
         nav .icon-burger {
             display: block;
+        }
+
+        nav :checked ~ .links {
+            bottom: 0;
         }
     }
 
