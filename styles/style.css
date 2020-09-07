@@ -103,7 +103,7 @@ html, body {
 
     .main-header.scrolled {
         height: 70px;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(14, 7, 22, 0.8);
         color: #fff;
     }
 
@@ -126,7 +126,7 @@ html, body {
             height: auto;
             flex-direction: column;
             justify-content: space-evenly;
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(14, 7, 22, 0.8);
             overflow: hidden;
             transition: all 0.5s ease-in-out;
         }
@@ -611,7 +611,7 @@ form {
 
 #footer_container {
     background: #0e0716;
-    font-family: 'Raleyway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
 }
