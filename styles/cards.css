@@ -99,6 +99,18 @@
   border-radius: 0.25rem;
 }
 
+.shifting_text1 {
+  padding-left: 0.5rem;
+}
+
+.shifting_text2 {
+  padding-left: 1.65rem;
+}
+
+.shifting_text3 {
+  padding-left: 1.4rem;
+}
+
 .kids {
   font-size: 1.5rem;
   color: #fff;
@@ -141,6 +153,16 @@
   }
   .wedding {
     width: 100px;
+  }
+  .shifting_text1 {
+    margin-left: 0.5rem;
+    padding-left: 0;
+  }
+  .shifting_text2 {
+    padding-left: 1.65rem;
+  }
+  .shifting_text3 {
+    padding-left: 0.1rem;
   }
 }
 /*# sourceMappingURL=cards.css.map */
