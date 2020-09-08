@@ -212,8 +212,7 @@ html, body {
 
 
 /* General section spacing */
-
-.projects_section, .about_section, .footer_section {
+ .about_container, .footer_section {
     width: 80%;
     padding-bottom: 2rem;
 }
@@ -359,44 +358,6 @@ html, body {
   }
 /* About section styling */
 
-/* Projects Styling */
-
-.card-wrapper {
-    height: 400px;
-    width: 300px;
-    perspective: 1000px;
-}
-
-.card-wrapper img {
-    width: 100%;
-}
-
-.content {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-.card-wrapper:hover .content {
-    transform: rotateY(180deg);
-    transition: 1s;
-}
-
-.face-front, .face-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    color: #000;
-}
-
-.face-back {
-    transform: rotateY(180deg);
-}
-
 /* Icon styling */
 
 .toolbox_container {
@@ -529,6 +490,48 @@ html, body {
     }
 }
 
+/* Projects Styling */
+
+#projects {
+    margin-left: 4rem:
+}
+
+.card-wrapper {
+    height: 400px;
+    width: 350px;
+    perspective: 1000px;
+    margin-top: 3rem;
+}
+
+.card-wrapper img {
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card-wrapper:hover .content {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+
+.face-front, .face-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+.face-back {
+    transform: rotateY(180deg);
+}
 
 /* Contact section styling */
 
