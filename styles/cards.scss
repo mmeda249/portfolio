@@ -6,6 +6,7 @@
 
 .card_container {
   perspective: 40rem;
+  height: 350px;
 }
 
 .card-body {
@@ -73,12 +74,28 @@
   border-radius: 0.25rem;
 }
 
-.card-front {
+.kids {
   font-size: 1.5rem;
   color: #fff;
   background: url(https://www.unicef.org/sites/default/files/styles/hero_desktop/public/UN0288499.jpg?itok=X4AHKBph);
   background-size: cover;
+  background-position: center;
+
 }
+
+.wedding {
+    font-size: 1.5rem;
+    color: #fff;
+    background: url(https://theweddingplaybook.com/wp-content/uploads/What-to-do-With-Your-Wedding-Photos-After-the-Big-Day-1024x683.jpg);
+    background-size: cover;
+  }
+
+.restaurant {
+    font-size: 1.5rem;
+    color: #fff;
+    background: url(https://media1.fdncms.com/inlander/imager/u/blog/17317839/food2-1-6faaa6ff8a8a3ce1.jpg?cb=1555346968);
+    background-size: cover;
+  }
 
 .shadow {
   box-shadow: 0 -1px 1px rgba(0,0,0,0.04), 
