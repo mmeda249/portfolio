@@ -350,6 +350,8 @@ html, body {
 
 /* Projects Styling */
 
+/* Commenting out
+
 .projects_cards {
     height: 100vh;
     background: linear-gradient(45deg, #3e1866 0%, #ebf9f9 100%);
@@ -440,7 +442,7 @@ html, body {
     transform: rotateY(-180deg);
 }
 
-
+*/
 
 /* Icon styling */
 
