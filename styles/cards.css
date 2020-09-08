@@ -5,6 +5,7 @@
 .cards {
   display: -ms-grid;
   display: grid;
+  padding-bottom: 3rem;
 }
 
 .card_container {
