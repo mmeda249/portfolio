@@ -350,6 +350,24 @@ html, body {
 
 /* About section styling */
 
+/* Projects Styling */
+
+.center, .front-face, .contents, .back-face {
+    position: absolute;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 290px;
+}
+
+.front-face {
+    height: 100%;
+}
+
 /* Projects section styling : commenting this out for now while we test new card style iteration
 
 #projects {
