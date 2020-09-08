@@ -359,8 +359,8 @@ html, body {
     background: linear-gradient(45deg, #3e1866 0%, #ebf9f9 100%);
 }
 
-.projects_cards {
-    position: relative;
+.center, .front-face, .contents, .back-face {
+    position: absolute;
 }
 
 .center {
@@ -370,9 +370,10 @@ html, body {
     transform: translate(-50%, -50%);
     height: 400px;
     width: 290px;
+    transform-style: preserve-3d;
 }
 
-.front-face {
+.front-face, .back-face {
     position: relative;
     height: 100%;
     width: 100%;
@@ -381,6 +382,8 @@ html, body {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    backface-visibility: hidden;
+    transition: 0.5s;
 }
 
 .contents {
@@ -392,7 +395,6 @@ html, body {
 }
 
 .front p {
-    position: relative;
     color: #000;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -411,23 +413,20 @@ html, body {
 }
 
 .front span {
-    position: relative;
     color: #000;
     font-size: 1.5rem;
 }
 
 .back-face {
-    position: relative;
+    transform: rotateY(180deg);
     background: linear-gradient(45deg, #043348 0%, #032535 100%);
 }
 
 .back {
-    position: relative;
     color: #000;
 }
 
 .back h2 {
-    position: relative;
     font-size: 2rem;
     padding-bottom: 5px;
 }
@@ -437,7 +436,11 @@ html, body {
 }
 
 .center:hover > .back-face {
-    transform: rotateY(180deg);
+    transform: rotateY(0deg);
+}
+
+.center:hover > .front-face {
+    transform: rotateY(-180deg);
 }
 
 /* Projects section styling : commenting this out for now while we test new card style iteration
