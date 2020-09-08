@@ -213,12 +213,12 @@ html, body {
 
 /* General section spacing */
 
-.projects_section, .about_section, .footer_section {
+ .about_section, .footer_section {
     width: 80%;
     padding-bottom: 2rem;
 }
 
-.about_section h2, .about_section h4, .contact_section h2, .projects_section h2 {
+.about_section h2, .about_section h4, .projects_header, .contact_section h2, .projects_section h2 {
     padding-top: 3rem;
     padding-bottom: 1.5rem;
     text-transform: uppercase;
@@ -480,6 +480,11 @@ html, body {
     }
 }
 
+/* Projects section styling */
+
+#projects {
+  background: #f5f5f5;
+}
 
 /* Contact section styling */
 

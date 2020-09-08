@@ -45,7 +45,6 @@
 .cards {
   grid-gap: 1.5rem;
   grid-auto-rows: 2fr;
-  background: #f5f5f5;
   -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   padding-left: 6rem;

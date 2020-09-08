@@ -32,11 +32,9 @@
 
 /* Improve aesthetics of cards */
 
-
 .cards {
   grid-gap: 1.5rem;
   grid-auto-rows: 2fr;
-  background: #f5f5f5;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   padding-left: 6rem;
   padding-right: 6rem;
