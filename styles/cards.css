@@ -7,10 +7,9 @@
   display: grid;
 }
 
-.card {
+.card_container {
   -webkit-perspective: 40rem;
           perspective: 40rem;
-  border-width: 0;
 }
 
 .card-body {
@@ -24,7 +23,7 @@
   border: none;
 }
 
-.card:hover .card-body, .card:focus .card-body {
+.card_container:hover .card-body, .card_container:focus .card-body {
   -webkit-transform: rotateX(-180deg);
           transform: rotateX(-180deg);
 }
@@ -51,7 +50,7 @@
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
-.card {
+.card_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,13 +65,13 @@
   z-index: 0;
 }
 
-.card:hover {
+.card_container:hover {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
   z-index: 1;
 }
 
-.card:active {
+.card_container:active {
   -webkit-transform: scale(0.975);
           transform: scale(0.975);
 }
@@ -100,6 +99,7 @@
 
 .card-front {
   font-size: 1.5rem;
+  background: url(https://www.unicef.org/sites/default/files/styles/hero_desktop/public/UN0288499.jpg?itok=X4AHKBph);
 }
 
 .shadow, .card-front, .card-back {
