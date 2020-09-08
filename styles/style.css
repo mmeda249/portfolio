@@ -492,15 +492,12 @@ html, body {
 
 /* Projects Styling */
 
-#projects {
-    margin-left: 4rem:
-}
+
 
 .card-wrapper {
     height: 400px;
     width: 350px;
     perspective: 1000px;
-    margin-top: 3rem;
 }
 
 .card-wrapper img {
