@@ -100,7 +100,7 @@
 }
 
 .shifting_text1 {
-  padding-left: 0.5rem;
+  padding-left: 0.2rem;
 }
 
 .shifting_text2 {
@@ -108,7 +108,7 @@
 }
 
 .shifting_text3 {
-  padding-left: 1.4rem;
+  padding-left: 0.5rem;
 }
 
 .project_title {
@@ -163,10 +163,19 @@
     padding-left: 0;
   }
   .shifting_text2 {
-    padding-left: 0.3rem;
+    padding-left: 0.3rem !important;
   }
   .shifting_text3 {
-    padding-left: 0.1rem;
+    padding-left: 0.05rem !important;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .shifting_text2 {
+    padding-left: 3rem;
+  }
+  .shifting_text3 {
+    padding-left: 1rem;
   }
 }
 /*# sourceMappingURL=cards.css.map */
