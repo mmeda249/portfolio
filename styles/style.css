@@ -358,6 +358,10 @@ html, body {
   }
 /* About section styling */
 
+#about {
+    padding-bottom: 3rem;
+}
+
 /* Icon styling */
 
 .toolbox_container {
@@ -497,6 +501,8 @@ html, body {
     padding-bottom: 0.5rem;
     text-transform: uppercase;
 }
+
+
 
 .card-wrapper {
     height: 400px;
