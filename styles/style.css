@@ -352,12 +352,17 @@ html, body {
 
 /* Projects Styling */
 
-.center, .front-face, .contents, .back-face {
-    position: absolute;
-    color: #fff;
+.projects_cards {
+    height: 100vh;
+    background: linear-gradient(45deg, #3e1866 0%, #ebf9f9 100%);
+}
+
+.projects_cards {
+    position: relative;
 }
 
 .center {
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -366,6 +371,7 @@ html, body {
 }
 
 .front-face {
+    position: relative;
     height: 100%;
     width: 100%;
     text-align: center;
@@ -384,7 +390,8 @@ html, body {
 }
 
 .front p {
-    color: #fff;
+    position: relative;
+    color: #000;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -396,19 +403,38 @@ html, body {
     right: 0;
     height: 2px;
     width: 100px;
-    background: #fff;
+    background: #000;
     margin: 0 auto;
     margin-top: 10px;
 }
 
 .front span {
-    color: #fff;
+    position: relative;
+    color: #000;
     font-size: 1.5rem;
 }
 
 .back-face {
+    position: relative;
     background: linear-gradient(45deg, #043348 0%, #032535 100%);
 }
+
+.back {
+    position: relative;
+    color: #000;
+}
+
+.back h2 {
+    position: relative;
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+.back span {
+    font-size: 1.5rem;
+}
+
+
 
 /* Projects section styling : commenting this out for now while we test new card style iteration
 
