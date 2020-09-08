@@ -99,7 +99,9 @@
 
 .card-front {
   font-size: 1.5rem;
+  color: #fff;
   background: url(https://www.unicef.org/sites/default/files/styles/hero_desktop/public/UN0288499.jpg?itok=X4AHKBph);
+  background-size: cover;
 }
 
 .shadow, .card-front, .card-back {
