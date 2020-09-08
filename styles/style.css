@@ -230,8 +230,9 @@ html, body {
 .hero_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
-    color: #fff;
-    border-color: #fff;
+    text-transform: capitalize;
+    color: #fff !important;
+    border-color: #fff !important;
     margin-top: 1rem;
     margin-right: auto;
     margin-left: auto;
@@ -259,8 +260,9 @@ html, body {
 }
 
 .hero_btn:hover {
-    background-color: #7700ff;
-    border-color: #7700ff;
+    background-color: #7700ff !important;
+    border-color: #7700ff !important;
+    color: #fff !important;
     padding-right: 31px;
     padding-left: 19px;
 }
@@ -290,6 +292,7 @@ html, body {
   .demo_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    text-transform: capitalize;
     color: #fff !important;
     background: #7700ff !important;
     border-color: #7700ff !important;
@@ -303,6 +306,7 @@ html, body {
 .submit_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    text-transform: capitalize;
     color: #fff !important;
     background: #ef0d50 !important;
     border-color: #ef0d50 !important;
@@ -333,6 +337,7 @@ html, body {
   .code_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    text-transform: capitalize;
     border-radius: 20px;
     position: relative;
     padding: 0.4rem 1rem;
