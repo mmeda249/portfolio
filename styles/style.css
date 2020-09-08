@@ -371,19 +371,20 @@ html, body {
     height: 400px;
     width: 290px;
     transform-style: preserve-3d;
+    perspective: 1000px;
 }
 
 .front-face, .back-face {
-    position: relative;
     height: 100%;
     width: 100%;
     text-align: center;
-    background: url(../images/kids_foundationshot.png);
+    background: url(/images/kids_foundationshot.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     backface-visibility: hidden;
-    transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
 
 .contents {
@@ -442,6 +443,8 @@ html, body {
 .center:hover > .front-face {
     transform: rotateY(-180deg);
 }
+
+
 
 /* Projects section styling : commenting this out for now while we test new card style iteration
 
