@@ -15,5 +15,4 @@ window.addEventListener('scroll', () => {
 
 // Change navigation active link color as the user scrolls down the page
 
-
 // Close mobile menu on click - the code below might not be used
