@@ -17,21 +17,3 @@ window.addEventListener('scroll', () => {
 
 
 // Close mobile menu on click - the code below might not be used
-
-
-$(function() {
-    var menuVisible = false;
-    $('.menu-item').click(function() {
-      if (menuVisible) {
-        $('.links').css({'display':'none'});
-        menuVisible = false;
-        return;
-      }
-      $('.links').css({'display':'block'});
-      menuVisible = true;
-    });
-    $('.links').click(function() {
-      $(this).css({'display':'none'});
-      menuVisible = false;
-    });
-  });
