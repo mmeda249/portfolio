@@ -397,100 +397,6 @@ html, body {
     transform: rotateY(180deg);
 }
 
-/* Commenting out
-
-.projects_cards {
-    height: 100vh;
-    background: linear-gradient(45deg, #3e1866 0%, #ebf9f9 100%);
-}
-
-.center, .front-face, .contents, .back-face {
-    position: absolute;
-}
-
-.center {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
-    width: 290px;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-}
-
-.front-face, .back-face {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    background: url(/images/kids_foundationshot.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
-}
-
-.contents {
-    left: 0;
-    top: 50%;
-    width: 100%;
-    perspective: 100px;
-    transform: translateY(-50%) translateZ(60px) scale(0.94)
-}
-
-.front p {
-    color: #000;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.front p:after {
-    content: '';
-    display: block;
-    left: 0;
-    right: 0;
-    height: 2px;
-    width: 100px;
-    background: #000;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-
-.front span {
-    color: #000;
-    font-size: 1.5rem;
-}
-
-.back-face {
-    transform: rotateY(180deg);
-    background: linear-gradient(45deg, #043348 0%, #032535 100%);
-}
-
-.back {
-    color: #000;
-}
-
-.back h2 {
-    font-size: 2rem;
-    padding-bottom: 5px;
-}
-
-.back span {
-    font-size: 1.5rem;
-}
-
-.center:hover > .back-face {
-    transform: rotateY(0deg);
-}
-
-.center:hover > .front-face {
-    transform: rotateY(-180deg);
-}
-
-*/
-
 /* Icon styling */
 
 .toolbox_container {
@@ -655,8 +561,8 @@ input[type="text"], input[type="email"], textarea {
 }
 
 .submit_btn {
-    background: #ef0d50;
-    border-color: #ef0d50;
+    background: #ef0d50 !important;
+    border-color: #ef0d50 !important;
     font-family: 'Raleway', sans-serif;
     display: block;
     margin: 0 auto;
@@ -670,7 +576,7 @@ form {
 
 /* Footer styling */
 
-#footer_container {
+#footer {
     background: #0e0716;
     font-family: 'Raleway', sans-serif;
     padding-top: 2.5rem;
