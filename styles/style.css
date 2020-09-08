@@ -306,6 +306,7 @@ html, body {
     border-color: #ef0d50;
     padding-right: 30px;
     padding-left: 18px;
+    cursor: pointer;
 }
 
   .demo_btn:after, .submit_btn:after {
@@ -332,6 +333,7 @@ html, body {
     background: #ef0d50;
     border-color: #ef0d50; 
     color: #fff;
+    cursor: pointer;
 }
 
   .code_btn:after {
@@ -434,7 +436,9 @@ html, body {
     font-size: 1.5rem;
 }
 
-
+.center:hover > .back-face {
+    transform: rotateY(180deg);
+}
 
 /* Projects section styling : commenting this out for now while we test new card style iteration
 
