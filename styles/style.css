@@ -492,7 +492,7 @@ html, body {
 /* Contact section styling */
 
 #contact {
-    background: #301550;
+    background: #2f2534;
 }
 
 .contact_section {
@@ -509,12 +509,12 @@ input[type="text"], input[type="email"], textarea {
     margin-top: 4px;
     margin-bottom: 12px;
     resize: vertical;
-    background: #3e1866;
+    background: #09070a;
     color: #fff;
 }
 
 ::placeholder {
-    color: #fff;
+    color: #b1b1b1;
     opacity: 0.7;
 
 }
