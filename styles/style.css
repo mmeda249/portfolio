@@ -287,12 +287,12 @@ html, body {
     margin-bottom: 1.5rem;
   }
 
-  .demo_btn, .submit_btn {
+  .demo_btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    color: #fff;
-    background: #7700ff;
-    border-color: #7700ff;
+    color: #fff !important;
+    background: #7700ff !important;
+    border-color: #7700ff !important;
     border-radius: 20px;
     position: relative;
     padding: 0.4rem 1rem;
@@ -300,11 +300,25 @@ html, body {
     transition: 0.5s;
 }
 
-.demo_btn:hover, .submit_btn:hover {
-    background-color: #EF0D50;
-    border-color: #ef0d50;
+.submit_btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #fff !important;
+    background: #ef0d50 !important;
+    border-color: #ef0d50 !important;
+    border-radius: 20px;
+    position: relative;
+    padding: 0.4rem 1rem;
+    margin-right: 1rem;
+    transition: 0.5s;
+}
+
+.demo_btn:hover, .submit_btn:hover, .code_btn:hover {
+    background-color: #ef0d50 !important;
+    border-color: #ef0d50 !important;
     padding-right: 30px;
     padding-left: 18px;
+    color: #fff !important;
 }
 
   .demo_btn:after, .submit_btn:after {
@@ -323,14 +337,6 @@ html, body {
     position: relative;
     padding: 0.4rem 1rem;
     transition: 0.5s;
-}
-
-.code_btn:hover {
-    padding-right: 30px;
-    padding-left: 18px;
-    background: #ef0d50;
-    border-color: #ef0d50; 
-    color: #fff;
 }
 
   .code_btn:after {
