@@ -492,11 +492,15 @@ html, body {
 
 /* Projects Styling */
 
-
+#projects h2 {
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
 
 .card-wrapper {
     height: 400px;
-    width: 350px;
+    width: 100%;
     perspective: 1000px;
 }
 
@@ -597,9 +601,11 @@ form {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
+
     input[type="text"], input[type="email"], textarea {
     width: 90%;
     }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
