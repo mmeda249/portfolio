@@ -350,6 +350,17 @@ html, body {
 
 /* Projects Styling */
 
+.card-wrapper {
+    height: 400px;
+    width: 300px;
+    perspective: 1000px;
+}
+
+.content {
+    position: relative;
+    wi
+}
+
 /* Commenting out
 
 .projects_cards {
