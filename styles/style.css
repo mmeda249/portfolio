@@ -213,19 +213,18 @@ html, body {
 
 /* General section spacing */
 
-.projects_section, .about_section, .footer_section {
+ .about_section, .footer_section {
     width: 80%;
     padding-bottom: 2rem;
 }
 
-.about_section h2, .about_section h4, .contact_section h2 {
+.about_section h2, .about_section h4, .projects_header, .contact_section h2, .projects_section h2 {
     padding-top: 3rem;
     padding-bottom: 1.5rem;
     text-transform: uppercase;
 }
 
 /* Button styling */
-
 
 .hero_btn {
     font-family: 'Raleway', sans-serif;
@@ -348,99 +347,9 @@ html, body {
   }
 /* About section styling */
 
-/* Projects Styling */
-
-.projects_cards {
-    height: 100vh;
-    background: linear-gradient(45deg, #3e1866 0%, #ebf9f9 100%);
+#about {
+    padding-bottom: 1.5rem;
 }
-
-.center, .front-face, .contents, .back-face {
-    position: absolute;
-}
-
-.center {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
-    width: 290px;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-}
-
-.front-face, .back-face {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    background: url(/images/kids_foundationshot.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
-}
-
-.contents {
-    left: 0;
-    top: 50%;
-    width: 100%;
-    perspective: 100px;
-    transform: translateY(-50%) translateZ(60px) scale(0.94)
-}
-
-.front p {
-    color: #000;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.front p:after {
-    content: '';
-    display: block;
-    left: 0;
-    right: 0;
-    height: 2px;
-    width: 100px;
-    background: #000;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-
-.front span {
-    color: #000;
-    font-size: 1.5rem;
-}
-
-.back-face {
-    transform: rotateY(180deg);
-    background: linear-gradient(45deg, #043348 0%, #032535 100%);
-}
-
-.back {
-    color: #000;
-}
-
-.back h2 {
-    font-size: 2rem;
-    padding-bottom: 5px;
-}
-
-.back span {
-    font-size: 1.5rem;
-}
-
-.center:hover > .back-face {
-    transform: rotateY(0deg);
-}
-
-.center:hover > .front-face {
-    transform: rotateY(-180deg);
-}
-
-
 
 /* Icon styling */
 
@@ -574,11 +483,16 @@ html, body {
     }
 }
 
+/* Projects section styling */
+
+#projects {
+  background: #f5f5f5;
+}
 
 /* Contact section styling */
 
 #contact {
-    background: #301550;
+    background: #2f2534;
 }
 
 .contact_section {
@@ -595,12 +509,12 @@ input[type="text"], input[type="email"], textarea {
     margin-top: 4px;
     margin-bottom: 12px;
     resize: vertical;
-    background: #3e1866;
+    background: #09070a;
     color: #fff;
 }
 
 ::placeholder {
-    color: #fff;
+    color: #b1b1b1;
     opacity: 0.7;
 
 }

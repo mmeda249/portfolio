@@ -1,0 +1,126 @@
+:root { --time: 0.707s; }
+
+.cards {
+  display: grid;
+  padding-bottom: 3rem;
+}
+
+.card_container {
+  perspective: 40rem;
+  height: 350px;
+}
+
+.card-body {
+  display: flex;
+  transform-style: preserve-3d;
+  transition: var(--time) transform;
+  border: none;
+
+  .card_container:hover &, .card_container:focus & {
+    transform: rotateX(-180deg);
+  }
+}
+
+.card-front, .card-back {
+  backface-visibility: hidden;
+  min-width: 100%;
+  text-align: center;
+}
+
+.card-back {
+  transform: rotateX(-180deg) translate(-100%, 0);
+}
+
+/* Improve aesthetics of cards */
+
+.cards {
+  grid-gap: 1.5rem;
+  grid-auto-rows: 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.card_container {
+  display: flex;
+  transition: z-index, transform calc(var(--time) / 4);
+  transition-delay: var(--time), 0s;
+  text-decoration: none;
+  color: inherit;
+  z-index: 0;
+  
+  &:hover {
+    transition-delay: 0s;
+    z-index: 1;
+  }
+
+  &:active {
+    transform: scale(0.975);
+  }
+}
+
+.card-body {
+  border-radius: 0.25rem;
+  flex: 1;
+}
+
+.card-front, .card-back {
+  @extend .shadow;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.kids {
+  font-size: 1.5rem;
+  color: #fff;
+  background: url(../images/child_sitting_teal_chair.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.wedding {
+    font-size: 1.5rem;
+    color: #fff;
+    background: url(../images/couple_roses.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.restaurant {
+    font-size: 1.5rem;
+    color: #fff;
+    background: url(https://media1.fdncms.com/inlander/imager/u/blog/17317839/food2-1-6faaa6ff8a8a3ce1.jpg?cb=1555346968);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.shadow {
+  box-shadow: 0 -1px 1px rgba(0,0,0,0.04), 
+              0 2px 2px rgba(0,0,0,0.04), 
+              0 4px 4px rgba(0,0,0,0.04), 
+              0 8px 8px rgba(0,0,0,0.04),
+              0 16px 16px rgba(0,0,0,0.04); 
+}
+
+@media screen and (max-width: 576px) {
+    .cards {
+        padding-left: 0rem;
+        padding-right: 0;
+    }
+    
+    .card-front, .card-back {
+        min-width: 100%;
+    }
+
+    .wedding {
+        width: 100px;
+    }
+}
