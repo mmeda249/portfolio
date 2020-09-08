@@ -354,6 +354,7 @@ html, body {
 
 .center, .front-face, .contents, .back-face {
     position: absolute;
+    color: #fff;
 }
 
 .center {
@@ -366,6 +367,31 @@ html, body {
 
 .front-face {
     height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url(../images/kids_foundationshot.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.contents {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    perspective: 100px;
+    transform: translateY(-50%) translateZ(60px) scale(0.94)
+}
+
+.front p {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.front span {
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 /* Projects section styling : commenting this out for now while we test new card style iteration
