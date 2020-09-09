@@ -507,8 +507,29 @@ form {
     color: #ef0d50;
 } 
 
+/* Extra small devices */
+@media (max-width: 330px) { 
 
-/* Extra small devices (portrait phones, less than 576px) */
+    .hero_container h1 {
+        font-size: 250%;
+    }
+
+    .hero_container h2 {
+        font-size: 120%;
+    }
+
+    .hero_btn {
+        margin-top: 2.5rem;
+        width: 55%;
+    }
+    
+    input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    }
+}
+
+
+/* Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
 
     .hero_container h1 {
