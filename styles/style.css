@@ -360,133 +360,74 @@ html, body {
 /* Icon styling */
 
 .toolbox_container {
-    padding-bottom: 2.5rem;
-}
-
-.fa-html5 {
-    color: #ff4800;
-    font-size: 4rem;
-}
-
-.html_icon {
-    animation-name: htmlIcon;
+    padding-bottom: 1rem;
+    animation-name: toolboxIcons;
     animation-duration: 1.5s;
     animation-timing-function: ease;
 }
 
-@keyframes htmlIcon {
+@keyframes toolboxIcons {
     0% {
-        right: -100%;
+        opacity: 0;
     }
 
     100% {
-        right: 0;
+        opacity: 1;
     }
+}
+
+.fa-html5 {
+    color: #ff4800;
+    font-size: 3.5rem;
+}
+
+.html_icon {
+    padding-bottom: 1.5rem;
 }
 
 .fa-css3-alt {
    color: #0084ff;
-   font-size: 4rem;
+   font-size: 3.5rem;
 }
 
 .css_icon {
-    animation-name: cssIcon;
-    animation-duration: 1.75s;
-    animation-timing-function: ease;
-}
-
-@keyframes cssIcon {
-    0% {
-        right: -100%;
-    }
-
-    100% {
-        right: 0;
-    }
+    padding-bottom: 1.5rem;
 }
 
 .fa-js {
    color: #ffd000;
-   font-size: 4rem;
+   font-size: 3.5rem;
 }
 
 .js_icon {
-    animation-name: jsIcon;
-    animation-duration: 2.25s;
-    animation-timing-function: ease;
-}
-
-@keyframes jsIcon {
-    0% {
-        right: -100%;
-    }
-
-    100% {
-        right: 0;
-    }
+    padding-bottom: 1.5rem;
 }
 
 .fa-bootstrap {
    color: #7700ff;
-   font-size: 4rem;
+   font-size: 3.5rem;
 }
 
 .bootstrap_icon {
-    animation-name: bootstrapIcon;
-    animation-duration: 2.75s;
-    animation-timing-function: ease;
-}
-
-@keyframes bootstrapIcon {
-    0% {
-        right: -100%;
-    }
-
-    100% {
-        right: 0;
-    }
+    padding-bottom: 1.5rem;
 }
 
 .fa-git {
    color: #ff5e00;
-   font-size: 4rem;
+   font-size: 3.5rem;
 }
 
 .git_icon {
-    animation-name: gitIcon;
-    animation-duration: 3s;
-    animation-timing-function: ease;
-}
-
-@keyframes gitIcon {
-    0% {
-        right: -100%;
-    }
-
-    100% {
-        right: 0;
-    }
+    padding-bottom: 1.5rem;
 }
 
 .fa-sass {
    color: #f06595;
-   font-size: 4rem;
+   font-size: 3.5rem;
 }
 
 .sass_icon {
-    animation-name: sassIcon;
-    animation-duration: 3.25s;
-    animation-timing-function: ease;
-}
-
-@keyframes sassIcon {
-    0% {
-        right: -100%;
-    }
-
-    100% {
-        right: 0;
-    }
+    padding-bottom: 1.5rem;
 }
 
 /* Projects section styling */
