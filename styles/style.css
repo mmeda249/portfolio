@@ -218,7 +218,13 @@ html, body {
     padding-bottom: 2rem;
 }
 
-.about_section h2, .about_section h4, .projects_header, .contact_section h2, .projects_section h2 {
+.about_section h4 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.about_section h2, .projects_header, .contact_section h2, .projects_section h2 {
     padding-top: 3rem;
     padding-bottom: 1.5rem;
     text-transform: uppercase;
@@ -354,7 +360,7 @@ html, body {
 /* Icon styling */
 
 .toolbox_container {
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
 }
 
 .fa-html5 {
@@ -364,17 +370,17 @@ html, body {
 
 .html_icon {
     animation-name: htmlIcon;
-    animation-duration: 3.75s;
-    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 }
 
 @keyframes htmlIcon {
     0% {
-        left: -100%;
+        right: -100%;
     }
 
     100% {
-        left: 0;
+        right: 0;
     }
 }
 
@@ -385,17 +391,17 @@ html, body {
 
 .css_icon {
     animation-name: cssIcon;
-    animation-duration: 3.25s;
-    animation-timing-function: ease-out;
+    animation-duration: 1.75s;
+    animation-timing-function: ease;
 }
 
 @keyframes cssIcon {
     0% {
-        left: -100%;
+        right: -100%;
     }
 
     100% {
-        left: 0;
+        right: 0;
     }
 }
 
@@ -406,17 +412,17 @@ html, body {
 
 .js_icon {
     animation-name: jsIcon;
-    animation-duration: 2.75s;
-    animation-timing-function: ease-out;
+    animation-duration: 2.25s;
+    animation-timing-function: ease;
 }
 
 @keyframes jsIcon {
     0% {
-        left: -100%;
+        right: -100%;
     }
 
     100% {
-        left: 0;
+        right: 0;
     }
 }
 
@@ -427,17 +433,17 @@ html, body {
 
 .bootstrap_icon {
     animation-name: bootstrapIcon;
-    animation-duration: 2.25s;
-    animation-timing-function: ease-out;
+    animation-duration: 2.75s;
+    animation-timing-function: ease;
 }
 
 @keyframes bootstrapIcon {
     0% {
-        left: -100%;
+        right: -100%;
     }
 
     100% {
-        left: 0;
+        right: 0;
     }
 }
 
@@ -448,38 +454,38 @@ html, body {
 
 .git_icon {
     animation-name: gitIcon;
-    animation-duration: 1.75s;
-    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    animation-timing-function: ease;
 }
 
 @keyframes gitIcon {
     0% {
-        left: -100%;
+        right: -100%;
     }
 
     100% {
-        left: 0;
+        right: 0;
     }
 }
 
-.fa-react {
-   color: #00aeff;
+.fa-sass {
+   color: #f06595;
    font-size: 4rem;
 }
 
-.react_icon {
-    animation-name: reactIcon;
-    animation-duration: 1.25s;
-    animation-timing-function: ease-out;
+.sass_icon {
+    animation-name: sassIcon;
+    animation-duration: 3.25s;
+    animation-timing-function: ease;
 }
 
-@keyframes reactIcon {
+@keyframes sassIcon {
     0% {
-        left: -100%;
+        right: -100%;
     }
 
     100% {
-        left: 0;
+        right: 0;
     }
 }
 
