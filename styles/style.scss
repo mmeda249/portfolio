@@ -481,14 +481,15 @@ form {
     padding-bottom: 2rem;
 }
 
-.fa-linkedin-in, .fa-twitter, .fa-github {
+footer a {
     font-size: 1.3rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+    text-decoration: none;
     color: #616161;
 }
 
-.fa-linkedin-in:hover, .fa-twitter:hover, .fa-github:hover {
+footer a:hover {
     color: #ef0d50;
 } 
 
