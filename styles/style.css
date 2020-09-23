@@ -193,10 +193,10 @@ html, body {
 }
 
 /* Navigation styling*/
-.navbar-brand {
-  padding-left: 0.8rem;
-  font-size: 1.3rem;
-  color: red !important;
+.navbar-brand img {
+  margin-top: -3rem;
+  padding-top: 3rem;
+  width: 125px;
 }
 
 .navbar {
@@ -204,18 +204,33 @@ html, body {
   background: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .navbar-nav li {
-  padding-right: 1.3rem;
+  padding-right: 2.5rem;
 }
 
 .nav-link {
   font-size: 1.1rem;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+  background: rgba(119, 0, 255, 0.7);
+}
+
 .navbar-toggler {
   border: none;
+}
+
+.navbar-dark span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
 }
 
 .navbar-toggler:focus,
@@ -229,7 +244,7 @@ html, body {
 /* Hero section */
 .hero_section {
   background-image: url(../images/white_keyboard_overlay1.jpg);
-  margin-top: -70px;
+  margin-top: -90px;
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
