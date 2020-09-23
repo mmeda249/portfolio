@@ -169,7 +169,7 @@ html, body {
 
 /* Max Widths for entire body */
 
-.top_heading, .about_body, .projects_body, .contact_body, #footer_body {
+.top_heading, .about_body, .projects_body, .contact_body, .footer_section {
     @include maxWidthBody();
 }
 
@@ -281,7 +281,7 @@ html, body {
     z-index: 3;
 }
 
-.about_body img, .projects_body img, .contact_body img {
+.about_body img, .projects_body img {
     width: 150px;
     position: relative;
     z-index: 2;
@@ -364,3 +364,82 @@ html, body {
 #projects {
     background: #f5f5f5;
   }
+
+  #contact {
+    background: #2f2534;
+}
+
+.contact_body img {
+    width: 150px;
+    position: relative;
+    z-index: 2;
+    top: -89px;
+    opacity: 0.8;
+    margin-bottom: -3.9rem;
+}
+
+.contact_body {
+    width: 100%;
+    color: #fff;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    resize: vertical;
+    background: #1a141d;
+    color: #fff;
+}
+
+::placeholder {
+    color: #b1b1b1;
+    opacity: 0.7;
+
+}
+
+.submit_btn {
+    background: #ef0d50;
+    border-color: #ef0d50;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+form {
+    padding-bottom: 0.2rem;
+    padding-top: 0.5rem;
+}
+
+#my-form-status {
+    color: rgb(28, 108, 27);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Footer styling */
+
+#footer_body {
+    background: #0e0716;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+footer a {
+    font-size: 1.3rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    text-decoration: none;
+    color: #616161;
+}
+
+footer a:hover {
+    color: #ef0d50;
+} 
+
+
