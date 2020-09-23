@@ -72,42 +72,13 @@ html, body {
 }
 
 .top_heading h1 {
-    animation-name: greeting;
-    animation-duration: 1.5s;
+    font-size: 3rem;
+    padding-bottom: 1.3rem;
 }
 
-@keyframes greeting {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-
-/*
 .top_heading h2 {
-    animation-name: intro;
-    animation-duration: 2s;
+    font-size: 1.6rem;
 }
-
-@keyframes intro {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-*/
 
 .my_name {
     color:#3e1866;
@@ -127,33 +98,13 @@ html, body {
     font-size: 1.2rem;
     color: #fff;
     border-color: #fff;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
     padding: 0.4rem 0.4rem 0.4rem 1rem;
     transition: 0.5s;
 }
-
-/*
-    animation-name: heroBtn;
-    animation-duration: 2s;
-}
-
-@keyframes heroBtn {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-*/
 
 .hero_btn:hover {
     background-color: #7700ff;
@@ -175,6 +126,7 @@ html, body {
   .hero_btn:hover:after {
     opacity: 1;
     right: 13px;
+    transition: 0.5s;
   }
 
 /* Max Widths for Sections */
