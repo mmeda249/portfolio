@@ -270,37 +270,27 @@ html, body {
   }
 }
 
+/*
 .top_heading h2 {
-  -webkit-animation-name: intro;
-          animation-name: intro;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-}
-
-@-webkit-keyframes intro {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    animation-name: intro;
+    animation-duration: 2s;
 }
 
 @keyframes intro {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
+*/
 .my_name {
   color: #3e1866;
 }
@@ -326,36 +316,27 @@ html, body {
   padding: 0.4rem 0.4rem 0.4rem 1rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-animation-name: heroBtn;
-          animation-name: heroBtn;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
 }
 
-@-webkit-keyframes heroBtn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+/*
+    animation-name: heroBtn;
+    animation-duration: 2s;
 }
 
 @keyframes heroBtn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+    0% {
+        opacity: 0;
+    }
 
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+*/
 .hero_btn:hover {
   background-color: #7700ff;
   border-color: #7700ff;
@@ -406,7 +387,6 @@ html, body {
 
 #myBtn:hover {
   background: linear-gradient(45deg, rgba(200, 32, 144, 0.8) 0%, rgba(106, 20, 209, 0.8) 100%);
-  /* background: linear-gradient(45deg, rgba(246, 190, 117, 1) 0%, rgba(215, 113, 133, 1) 35%, rgba(135, 102, 172, 1) 65%, rgba(65, 80, 177,1) 100%); */
 }
 
 /* General Button Styling */
