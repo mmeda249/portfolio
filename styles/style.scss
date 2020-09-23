@@ -241,7 +241,7 @@ html, body {
     z-index: 3;
 }
 
-.about_body img, .projects_body img {
+.about_body img, .projects_tag {
     width: 150px;
     position: relative;
     z-index: 2;
@@ -325,6 +325,8 @@ html, body {
     background: #f5f5f5;
     padding-bottom: 0.3rem;
   }
+
+  /* Contact Section */
 
   #contact {
     background: #2f2534;
