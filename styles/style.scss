@@ -32,6 +32,8 @@ html, body {
 .navbar {
     padding: 0.8rem;
     background: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 .navbar-nav li {
@@ -57,7 +59,8 @@ html, body {
 
 .hero_section {
     background-image: url(../images/white_keyboard_overlay1.jpg);
-    height: 90vh;
+    margin-top: -70px;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
