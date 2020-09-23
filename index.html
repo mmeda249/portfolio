@@ -1,214 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>M2 Codes | Web Developer & Designer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>M2 Codes | Web Developer & Designer</title>
 </head>
 
 <body>
 
-<!-- ===================================== -->
-<!-- Navigation -->
-<!-- ===================================== -->
+  <!-- ============================================= -->
+<!-- Navigation -->   
+<!-- ============================================= -->
 
 <header>
 
-  <nav class="main-header">
-    <input id="nav-toggle" type="checkbox">
-    <a class="logo" href="index.html"><img src="../Main Portfolio Site/images/m-logo.png" alt=""></a>
-    <ul class="links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects" class="menu-item">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <label for="nav-toggle" class="icon-burger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </label>
+  <nav class="navbar navbar-expand-md navbar-light sticky-top">
+      <div class="container-fluid">
+          <a href="#" class="navbar-brand">Logo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#about" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#projects" class="nav-link">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#contact" class="nav-link" >Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
   </nav>
 
-<!-- ===================================== -->
-<!-- Hero Section -->
-<!-- ===================================== -->
+<!-- ============================================= -->
+<!-- Main Image/Header -->
+<!-- ============================================= -->
 
-  <section>
-      <div class="container-fluid hero_container text-center">
-          <h1 class="display-4">Hey there!</h1>
-          <h2>I'm <span class="my_name">Mutsa Meda.</span>
-              <br>Front-end web developer & web designer.</h2>
-              <a href="#projects" class="btn btn-outline-secondary hero_btn" role="button">View Projects</a>
+  <div class="hero_section">
+      <div class="top_heading">
+          <h1>Hey there!
+          <br>I'm Mutsa, Web Dev</h1>
       </div>
-  </section>
+      <div class="headline_button">
+          <a href="#our_work" class="btn btn-primary btn-lg shadow-none hero_btn" role="button">View Projects</a>
+      </div>
+  </div>
 
 </header>
 
-<!-- ===================================== -->
-<!-- About -->
-<!-- ===================================== -->
-    
-    <section id="about">
-      <div data-aos="flip-left">
-        <div class="container-fluid text-center about_section">
-            <h2 data-aos="fade-in" data-aos-duration="800" data-aos-once="true">About</h2>
-        <p data-aos="fade-in" data-aos-duration="800" data-aos-once="true">I'm a highly motivated, self-taught front-end web developer and designer with a passion for creative problem solving and creating beautiful user interfaces.</p>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up"></i></button>
 
-        <h4 data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">Tech Toolbox</h4>
 
-        <div class="row toolbox_container">
+<!-- ============================================= -->
+<!-- About Section -->
+<!-- ============================================= -->
 
-            <div class="col html_icon" data-aos="flip-left" data-aos-duration="500" data-aos-once="true"><i class="fab fa-html5"></i><br>HTML5</div>
+<div class="container-fluid">
+  <h2>About</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quasi, iusto consequatur sit expedita, cupiditate similique aperiam unde facere fugit repudiandae quibusdam. Blanditiis corrupti repellat necessitatibus dignissimos amet eveniet accusantium totam eaque dolorem sapiente adipisci facilis porro consectetur quibusdam eius distinctio placeat fugiat impedit iusto voluptate fugit, laudantium libero officiis.</p>
+</div>
 
-            <div class="col css_icon" data-aos="flip-left" data-aos-duration="700" data-aos-once="true"><i class="fab fa-css3-alt"></i><br> CSS3 </div>
+<!-- ============================================= -->
+<!-- Projects Section -->
+<!-- ============================================= -->
 
-            <div class="col js_icon" data-aos="flip-left" data-aos-duration="900" data-aos-once="true"><i class="fab fa-js"></i><br>JavaScript</div>
+<div class="container-fluid">
+<h2>Projects</h2>
 
-            <div class="col bootstrap_icon" data-aos="flip-left" data-aos-duration="1100" data-aos-once="true"><i class="fab fa-bootstrap"></i><br>Bootstrap</div>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione illo quos corrupti deleniti aspernatur maxime veritatis deserunt cum quis eum? Aliquam quaerat ullam officiis quibusdam accusamus, provident magnam! Ad a veniam voluptate cupiditate, natus, tempora, nisi vitae iure sint quod libero odio officiis vel eos praesentium accusamus pariatur alias itaque!</p>
+</div>
 
-            <div class="col git_icon" data-aos="flip-left" data-aos-duration="1300" data-aos-once="true"><i class="fab fa-git"></i><br> Git </div>
+<!-- ============================================= -->
+<!-- Contact Section -->
+<!-- ============================================= -->
 
-            <div class="col sass_icon" data-aos="flip-left" data-aos-duration="1500" data-aos-once="true"><i class="fab fa-sass"></i><br>Sass</div>
-          </div>
+<div class="container-fluid">
+<h2>Contact</h2>
 
-          <div data-aos="fade-in" data-aos-duration="600" data-aos-once="true" >
-          Other skills include Web Content Development, Adobe Photoshop, Adobe XD, Wordpress, and Google Analytics.
-          </div>
-        </div>
-        </div>
-    </section>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime atque consectetur sed et cumque architecto facere, possimus, corporis aliquam ducimus alias tempore nostrum provident harum esse autem illo eos labore eaque vitae neque blanditiis sequi laudantium accusantium. Harum, hic, mollitia nobis quia veritatis, vitae similique eius alias ea aliquam aperiam.</p>
+</div>
 
-<!-- ===================================== -->
-<!-- Projects -->
-<!-- ===================================== -->
-
-    <section id="projects">
-          <h2 class="projects_header text-center" data-aos="flip-left" data-aos-duration="1000" data-aos-once="true"> Projects</h2>
-
-    <div class="cards">
-      <div class="card_container">
-        <div class="card-body">
-          <h2 class="card-front kids">
-            <span class="shifting_text1"></span>
-            The Kids Foundation - Non-Profit Organization
-          </h2>
-    
-          <div class="card-back">
-            <p class="text-center"><span class="project_title">The Kids Foundation</span> is a non-profit organization project focusing on philanthropic efforts affecting children including hunger, healthcare, and education.
-              <br><br>
-
-            <a href="https://mmeda249.github.io/kids-foundation" target="_blank" class="btn btn-primary demo_btn" role="button">Live Demo</a>
-            <a href="https://github.com/mmeda249/kids-foundation" target="_blank" class="btn btn-outline-secondary code_btn" role="button">View Code</a>
-          </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="card_container">
-        <div class="card-body">
-          <h2 class="card-front restaurant">
-            <span class="shifting_text3"></span>
-            Amuse Bouche Mediterranean Bistro
-          </h2>
-    
-          <div class="card-back">
-            <p class="text-center"><span class="project_title">Amuse Bouche Bistro</span> is a Mediterranean fusion restaurant project designed to target foodies and young professionals in the Washington D.C. area.
-              <br><br>
-
-            <a href="https://mmeda249.github.io/amuse-bouche-bistro" target="_blank" class="btn btn-primary demo_btn" role="button">Live Demo</a>
-            <a href="https://github.com/mmeda249/amuse-bouche-bistro" target="_blank" class="btn btn-outline-secondary code_btn" role="button">View Code</a>
-          </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="card_container">
-        <div class="card-body">
-          <h2 class="card-front wedding">
-            <span class="shifting_text2"></span>
-            Amethyst Stone Photography Studio
-          </h2>
-    
-          <div class="card-back">
-            <p class="text-center"><span class="project_title">Amethyst Stone Photography</span> is a photography studio project focusing on wedding, engagement and editorial photography.
-              <br><br>
-
-            <a href="https://mmeda249.github.io/amethyst-stone-photography" target="_blank" class="btn btn-primary demo_btn" role="button">Live Demo</a>
-            <a href="https://github.com/mmeda249/amethyst-stone-photography" target="_blank" class="btn btn-outline-secondary code_btn" role="button">View Code</a>
-          </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    </section>
-
-<!-- ===================================== -->
-<!-- Contact -->
-<!-- ===================================== -->
-    
-        <section id="contact">
-          <div data-aos="fade-in">
-            <div class="container-fluid text-center contact_section">
-                <h2 data-aos="flip-left" data-aos-duration="1000" data-aos-once="true">Contact Me</h2>
-        
-        <form id="my-form" method="POST" action="https://formspree.io/mgenggea" data-aos="flip-left" data-aos-duration="1000" data-aos-once="true">
-            <input type="text" id= "fname" name="fname" placeholder="First Name" required>
-            <input type="text" id= "lname" name="lname" placeholder="Last Name" required>
-            <input type="email" id= "email" name="email" placeholder="Email" required>
-            <textarea name="message" id="message" placeholder="Your Message" cols="30" rows="10"></textarea>
-            <button type="submit" id="my-form-button" class="btn btn-primary submit_btn" role="button">Send</button>
-              <p id="my-form-status"></p>
-        </form>
-        
-    </div>
-    </div>
-        </section>
-
-<!-- ===================================== -->
+<!-- ============================================= -->
 <!-- Footer -->
-<!-- ===================================== -->
-    
-    <section id="footer_container">
-    <footer>
-            <div class="container-fluid text-center footer_section">
-              <a href="https://twitter.com/M2WebDev"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/mutsa-meda06"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/mmeda249"><i class="fab fa-github"></i></a>
-            </div>
+<!-- ============================================= -->
 
-            <div class="container-fluid text-center">
-            <p>Mutsa Meda &copy; 2020</p>
-            </div>
-        </footer>
-    </section>
+<footer>
+  <div class="container-fluid">
+  <h2>Footer</h2>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic modi aliquam beatae cumque libero officia sunt debitis ut dolorem totam qui, adipisci nulla a voluptas explicabo iusto possimus eveniet. Ut libero voluptates labore, deserunt velit obcaecati quod sit earum optio sunt. Provident similique omnis culpa, odit odio possimus at nemo.</p>
+  </div>
+</footer>
 
-<!-- ===================================== -->
-<!-- Scripts -->
-<!-- ===================================== -->
+<!-- Script -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-    
-    <script src="https://kit.fontawesome.com/2c3c47508a.js" crossorigin="anonymous">
-    </script>
-    <script src="./scripts/interactivity.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/2c3c47508a.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
-
-
 </html>
