@@ -1,3 +1,5 @@
+@import "cards";
+
 * {
     margin: 0;
     padding: 0;
@@ -167,9 +169,9 @@ html, body {
     right: 13px;
   }
 
-/* Max Widths for entire body */
+/* Max Widths for Sections */
 
-.top_heading, .about_body, .projects_body, .contact_body, .footer_section {
+.top_heading, .about_body, .contact_body, .footer_section {
     @include maxWidthBody();
 }
 
@@ -183,18 +185,17 @@ html, body {
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: #4d4d4d;
-    opacity: 0.5;
+    background: linear-gradient(45deg, rgba(200,32,144,1) 0%, rgba(106,20,209,1) 100%);
     color: #fff; 
     cursor: pointer; 
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding: 0.3rem 1rem;
     border-radius: 10px; 
     font-size: 1.5rem;
   }
   
   #myBtn:hover {
-    background-color: #838282;
+    background: linear-gradient(45deg, rgba(200,32,144,0.8) 0%, rgba(106,20,209,0.8) 100%);
+    /* background: linear-gradient(45deg, rgba(246, 190, 117, 1) 0%, rgba(215, 113, 133, 1) 35%, rgba(135, 102, 172, 1) 65%, rgba(65, 80, 177,1) 100%); */
 }
 
 /* General Button Styling */
@@ -268,7 +269,7 @@ html, body {
 
 /* About section */
 
-.about_body, .projects_body, .contact_body {
+.about_body, .contact_body {
     padding-bottom: 3rem;
 }
 
@@ -363,6 +364,7 @@ html, body {
 
 #projects {
     background: #f5f5f5;
+    padding-bottom: 0.3rem;
   }
 
   #contact {
