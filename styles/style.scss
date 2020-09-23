@@ -268,5 +268,20 @@ html, body {
 
 /* About section */
 
+.about_body h2, .projects_body h2, .contact_body h2 {
+    padding-top: 3rem;
+}
 
+.about_body h2 {
+    position: relative;
+    z-index: 3;
+}
+
+.about_body img {
+    width: 150px;
+    position: relative;
+    z-index: 2;
+    top: -89px;
+    opacity: 0.2;
+}
 
