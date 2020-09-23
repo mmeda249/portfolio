@@ -465,6 +465,12 @@ form {
     padding-top: 0.5rem;
 }
 
+#my-form-status {
+    color: rgb(28, 108, 27);
+    font-size: 15px;
+    font-weight: 500;
+}
+
 
 /* Footer styling */
 
@@ -475,14 +481,14 @@ form {
     padding-bottom: 2rem;
 }
 
-.fa-linkedin-in, .fa-instagram, .fa-github {
+.fa-linkedin-in, .fa-twitter, .fa-github {
     font-size: 1.3rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     color: #616161;
 }
 
-.fa-linkedin-in:hover, .fa-instagram:hover, .fa-github:hover {
+.fa-linkedin-in:hover, .fa-twitter:hover, .fa-github:hover {
     color: #ef0d50;
 } 
 
