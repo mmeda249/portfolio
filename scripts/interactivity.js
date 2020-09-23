@@ -17,6 +17,27 @@ window.addEventListener('scroll', () => {
 
 // Close mobile menu on click - the code below might not be used
 
+
+// Back-to-Top button
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls 600px down from the top of the page, the button will appear
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// Scrolls back to top of page when user clicks the button
+function topFunction() {
+  document.documentElement.scrollTop = 0; // For Chrome, Internet Explorer & Firefox
+  document.body.scrollTop = 0; // For Safari
+}
+
 // Fade on scroll efffect
 
 AOS.init();

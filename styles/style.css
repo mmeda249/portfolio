@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +9,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  font-family: 'Lato', sans-serif;
-  /* change to Poppins eventually */
+  font-family: 'Poppins', sans-serif;
   color: #616161;
   font-weight: 400;
   scroll-behavior: smooth;
@@ -19,7 +19,7 @@ html, body {
 .navbar-brand {
   padding-left: 0.8rem;
   font-size: 1.3rem;
-  color: red;
+  color: red !important;
 }
 
 .navbar {
@@ -32,7 +32,7 @@ html, body {
 }
 
 .nav-link {
-  font-size: 1.1rem !important;
+  font-size: 1.1rem;
 }
 
 .navbar-toggler {
@@ -48,4 +48,258 @@ html, body {
 }
 
 /* Hero section */
+.hero_section {
+  background-image: url(../images/white_keyboard_overlay1.jpg);
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+.top_heading {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.top_heading h1 {
+  -webkit-animation-name: greeting;
+          animation-name: greeting;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes greeting {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes greeting {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.top_heading h2 {
+  -webkit-animation-name: intro;
+          animation-name: intro;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.my_name {
+  color: #3e1866;
+}
+
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* Hero Button */
+.hero_btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  border-color: #fff;
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  padding: 0.4rem 0.4rem 0.4rem 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-animation-name: heroBtn;
+          animation-name: heroBtn;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes heroBtn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes heroBtn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero_btn:hover {
+  background-color: #7700ff;
+  border-color: #7700ff;
+  padding-right: 25px;
+  padding-left: 19px;
+}
+
+.hero_btn:after {
+  content: '↓';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  left: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.hero_btn:hover:after {
+  opacity: 1;
+  right: 13px;
+}
+
+/* Max Widths for entire body */
+.top_heading, .about_body, .projects_body, .contact_body, #footer_body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+/* Back to top button styling */
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #4d4d4d;
+  opacity: 0.5;
+  color: #fff;
+  cursor: pointer;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+#myBtn:hover {
+  background-color: #838282;
+}
+
+/* General Button Styling */
+.project_btns {
+  margin-top: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+}
+
+.demo_btn, .submit_btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  background: #7700ff;
+  border-color: #7700ff;
+  border-radius: 20px;
+  position: relative;
+  padding: 0.4rem 1rem;
+  margin-right: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.demo_btn:hover, .submit_btn:hover {
+  background-color: #EF0D50;
+  border-color: #ef0d50;
+  padding-right: 30px;
+  padding-left: 18px;
+}
+
+.demo_btn:after, .submit_btn:after {
+  content: '→';
+  position: absolute;
+  opacity: 0;
+  top: 8px;
+  right: -12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.code_btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  border-radius: 20px;
+  position: relative;
+  padding: 0.4rem 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.code_btn:hover {
+  padding-right: 30px;
+  padding-left: 18px;
+  background: #ef0d50;
+  border-color: #ef0d50;
+  color: #fff;
+}
+
+.code_btn:after {
+  content: '→';
+  position: absolute;
+  opacity: 0;
+  top: 8px;
+  right: -12px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.demo_btn:hover:after, .code_btn:hover:after, .submit_btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* About section */
 /*# sourceMappingURL=style.css.map */
