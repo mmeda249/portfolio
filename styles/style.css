@@ -199,12 +199,19 @@ html, body {
   width: 125px;
 }
 
-.navbar {
+.nav {
   padding: 0.8rem;
-  background: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+.navbar.navbar-dark {
+  background: rgba(47, 37, 52, 0.95);
 }
 
 .navbar-nav li {
@@ -220,8 +227,7 @@ html, body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
-  background: rgba(119, 0, 255, 0.7);
+  color: #ef0d50;
 }
 
 .navbar-toggler {
@@ -244,7 +250,6 @@ html, body {
 /* Hero section */
 .hero_section {
   background-image: url(../images/white_keyboard_overlay1.jpg);
-  margin-top: -90px;
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
