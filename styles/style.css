@@ -633,7 +633,7 @@ form {
 }
 
 #my-form-status {
-  color: #1c6c1b;
+  color: #27ac25;
   font-size: 15px;
   font-weight: 500;
 }
@@ -669,6 +669,9 @@ footer a:hover {
   }
   .top_heading h2 {
     font-size: 140%;
+  }
+  .hero_section {
+    background-position: 20% 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */
