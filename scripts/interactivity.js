@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", function() {
   function success() {
     form.reset();
     button.style = "display: none ";
-    status.innerHTML = " &#10003 Message sent! We'll be in touch shortly.";
+    status.innerHTML = "&#10003 Thank you! <br> Your message has been submitted.";
   }
 
   function error() {
