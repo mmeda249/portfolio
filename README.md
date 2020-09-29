@@ -59,11 +59,16 @@ Text content has been created and edited by Mutsa Meda. Logo and icon created by
 * #ef0d50
 * #4a1c7b
 * #7700ff
+* #f5f5f5
+* #2f2534
+* #0e0716
 
 #### Gradients
 
 * #6a14d1
 * #c82090
+* #f6bf75
+* #d77185
 
 #### Icons
 
