@@ -261,7 +261,7 @@ html, body {
 /* Hero section */
 .hero_section {
   background-image: url(../images/white_keyboard_overlay1.jpg);
-  height: 100vh;
+  height: 92vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
