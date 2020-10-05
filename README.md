@@ -87,7 +87,7 @@ Text content has been created and edited by Mutsa Meda. Logo and icon created by
 * Copyright 2020 © Mutsa Meda
 * This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-## Acknowledgements
+## Acknowledgments
 
 * Card flip animation code excerpt from Smashing Magazine - https://codepen.io/smashingmag/pen/xxGKLZO?editors=1100
 
