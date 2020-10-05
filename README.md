@@ -9,7 +9,7 @@ Portfolio includes links to web projects (live demos) and repositories.
 * [Setup](#setup)
 * [Web-Content-Development](#web-content-development)
 * [License](#license)
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgments](#acknowledgments)
 
 ## Description
 
