@@ -15,7 +15,7 @@ Portfolio includes links to web projects (live demos) and repositories.
 
 The web design and development portfolio showcases the following three projects: 
 * The Kids Foundation
-* Amuse Bouche Bistro
+* Amuse-Bouche Bistro
 * Amethyst Stone Photography
  
 ## Setup
